@@ -2,7 +2,7 @@
   font-size: 62.5%;
 }
 
-.location {
+.location, .element-logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -44,19 +44,9 @@
   height: 1.5rem;
 }
 
-.element-logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
 .element-logo img {
-  width: 3rem;
-  height: 3rem;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 #logo-footer {
