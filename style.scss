@@ -2,3 +2,43 @@
 	font-size: 62.5%;
 }
 
+
+.location {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+	
+}
+
+.logo_map_marker {
+	width: 1.5rem;
+	height: 1.5rem;
+}
+
+.choix, .composer, .deguster {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+}
+
+.logo_fonctionnement {
+	width: 1.5rem;
+	height: 1.5rem;
+}
+
+.element-logo {
+	display: flex;
+	flex-direction: row;
+}
+
+.element-logo img {
+	width: 3rem;
+	height: 3rem;
+}
+
+#logo-footer {
+	width: 9rem;
+	height: 4rem;
+}
