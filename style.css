@@ -2,7 +2,7 @@
   font-size: 62.5%;
 }
 
-.location, .element-logo {
+.location, .element-logo, .choix, .composer, .deguster {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -18,33 +18,7 @@
           align-items: center;
 }
 
-.logo_map_marker {
-  width: 1.5rem;
-  height: 1.5rem;
-}
-
-.choix, .composer, .deguster {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.logo_fonctionnement {
-  width: 1.5rem;
-  height: 1.5rem;
-}
-
-.element-logo img {
+.logo_map_marker, .logo_fonctionnement, .element-logo img {
   width: 1.5rem;
   height: 1.5rem;
 }

@@ -5,32 +5,14 @@
 }
 
 
-.location, .element-logo {
+.location, .element-logo, .choix, .composer, .deguster {
 	@include struct_row;
 }
 
-.logo_map_marker {
-	width: 1.5rem;
-	height: 1.5rem;
+.logo_map_marker, .logo_fonctionnement, .element-logo img {
+	@include icon_resize;
 }
 
-.choix, .composer, .deguster {
-	display: flex;
-	flex-direction: row;
-	justify-content: left;
-	align-items: center;
-}
-
-.logo_fonctionnement {
-	width: 1.5rem;
-	height: 1.5rem;
-}
-
-
-.element-logo img {
-	width: 1.5rem;
-	height: 1.5rem;
-}
 
 #logo-footer {
 	width: 9rem;
