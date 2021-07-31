@@ -2,7 +2,6 @@
   font-size: 62.5%;
 }
 
-.location,
 .element-logo,
 .choix,
 .composer,
@@ -29,6 +28,23 @@
   height: 1.5rem;
 }
 
+.location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #e9e9e9;
+}
+
 #logo-footer {
   width: 9rem;
   height: 4rem;
@@ -44,6 +60,7 @@
 }
 
 footer {
+  padding: 2rem 0 4rem 2rem;
   background: #353535;
   color: #FFFFFF;
 }

@@ -6,7 +6,7 @@
 }
 
 
-.location,
+
 .element-logo,
 .choix,
 .composer,
@@ -14,12 +14,17 @@
 	@include struct_row;
 }
 
+
 .logo_map_marker,
 .logo_fonctionnement,
 .element-logo img {
 	@include icon_resize;
 }
 
+.location {
+	@include struct_row_center;
+	background: $color-location;
+}
 
 #logo-footer {
 	width: 9rem;
@@ -36,6 +41,7 @@
 }
 
 footer {
+	padding: 2rem 0 4rem 2rem;
 	background: $color-footer;
 	color: $initial-color;
 }

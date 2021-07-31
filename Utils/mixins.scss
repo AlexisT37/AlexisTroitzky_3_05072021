@@ -9,3 +9,10 @@
     width: 1.5rem;
 	height: 1.5rem;
 }
+
+@mixin struct_row_center {
+    display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
