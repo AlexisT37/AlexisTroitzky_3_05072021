@@ -5,7 +5,12 @@
 	font-size: 62.5%;
 }
 
-
+header {
+	display: flx;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 
 .element-logo,
 .choix,
@@ -24,10 +29,19 @@
 
 .location {
 	background: $color-location;
+	width: 100%;
 }
 
-.location, .presentation>h1,  .presentation>h2, .btn{
+.location,
+.presentation>h1,
+.presentation>h2,
+.btn {
 	@include struct_row_center;
+}
+
+
+.fonctionnement {
+	@include padding_top_bottom;
 }
 
 #logo-footer {
@@ -40,8 +54,12 @@
 	height: auto;
 }
 
-.restaurants {
+.restaurants,
+.presentation {
 	background: $color-btn;
+	@include padding_left_right;
+	@include padding_top_bottom;
+	width: 100%;
 }
 
 footer {

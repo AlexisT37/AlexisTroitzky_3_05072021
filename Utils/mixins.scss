@@ -16,5 +16,16 @@
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	width: 99%;
+	width: 100%;
+}
+
+
+@mixin padding_left_right {
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+@mixin padding_top_bottom {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
 }
