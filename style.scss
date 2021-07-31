@@ -21,9 +21,13 @@
 	@include icon_resize;
 }
 
+
 .location {
-	@include struct_row_center;
 	background: $color-location;
+}
+
+.location, .presentation>h1,  .presentation>h2{
+	@include struct_row_center;
 }
 
 #logo-footer {
