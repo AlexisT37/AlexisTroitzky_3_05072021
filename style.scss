@@ -26,7 +26,7 @@
 	background: $color-location;
 }
 
-.location, .presentation>h1,  .presentation>h2{
+.location, .presentation>h1,  .presentation>h2, .btn{
 	@include struct_row_center;
 }
 
