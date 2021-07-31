@@ -2,7 +2,11 @@
   font-size: 62.5%;
 }
 
-.location, .element-logo, .choix, .composer, .deguster {
+.location,
+.element-logo,
+.choix,
+.composer,
+.deguster {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -18,7 +22,9 @@
           align-items: center;
 }
 
-.logo_map_marker, .logo_fonctionnement, .element-logo img {
+.logo_map_marker,
+.logo_fonctionnement,
+.element-logo img {
   width: 1.5rem;
   height: 1.5rem;
 }
@@ -31,5 +37,14 @@
 .photo_resto {
   max-width: 100%;
   height: auto;
+}
+
+.restaurants {
+  background: #f6f6f6;
+}
+
+footer {
+  background: #353535;
+  color: #FFFFFF;
 }
 /*# sourceMappingURL=style.css.map */

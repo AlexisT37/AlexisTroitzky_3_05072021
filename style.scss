@@ -1,15 +1,22 @@
 @import "Utils/mixins.scss";
+@import "Utils/variables.scss";
 
 :root {
 	font-size: 62.5%;
 }
 
 
-.location, .element-logo, .choix, .composer, .deguster {
+.location,
+.element-logo,
+.choix,
+.composer,
+.deguster {
 	@include struct_row;
 }
 
-.logo_map_marker, .logo_fonctionnement, .element-logo img {
+.logo_map_marker,
+.logo_fonctionnement,
+.element-logo img {
 	@include icon_resize;
 }
 
@@ -20,6 +27,15 @@
 }
 
 .photo_resto {
-	max-width: 100%; 
+	max-width: 100%;
 	height: auto;
+}
+
+.restaurants {
+	background: $color-btn;
+}
+
+footer {
+	background: $color-footer;
+	color: $initial-color;
 }
