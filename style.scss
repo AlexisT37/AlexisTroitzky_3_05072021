@@ -1,7 +1,12 @@
 @import "Utils/mixins.scss";
 @import "Utils/variables.scss";
 
-// font-family: Roboto;
+@font-face {
+	font-family: Roboto;
+	src: url('fonts/Roboto-Regular.ttf') format('woff2-variations');
+	font-weight: normal;
+	font-style: normal;
+}
 
 :root {
 	font-size: 62.5%;
@@ -51,7 +56,7 @@ header {
 }
 
 .location {
-	
+
 	background: $color-location;
 }
 
