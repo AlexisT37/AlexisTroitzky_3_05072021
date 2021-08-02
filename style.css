@@ -23,7 +23,7 @@ body {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  padding-bottom: 1.5rem;
+  padding-bottom: 1rem;
 }
 
 .presentation > h1,
@@ -89,8 +89,8 @@ header {
   -webkit-box-shadow: inset 0 9px 3px -7px silver;
           box-shadow: inset 0 9px 3px -7px silver;
   background: #e9e9e9;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .title,
