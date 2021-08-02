@@ -80,7 +80,7 @@ header {
           align-items: center;
 }
 
-#button_explore {
+#button_explore button {
   font-size: 0.9rem;
   color: #FFFFFF;
   padding: .9rem 1.5rem .9rem 1.5rem;
@@ -110,7 +110,7 @@ header {
 .location,
 .presentation > h1,
 .presentation > h2,
-.btn {
+#button_explore {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

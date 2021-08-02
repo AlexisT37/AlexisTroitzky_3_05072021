@@ -62,7 +62,7 @@ header {
 	@include struct_row;
 }
 
-#button_explore {
+#button_explore button {
 	font-size: $font-small;
 	color: $initial-color;
 	padding: .9rem 1.5rem .9rem 1.5rem;
@@ -89,7 +89,7 @@ header {
 .location,
 .presentation>h1,
 .presentation>h2,
-.btn {
+#button_explore {
 	@include struct_row_center;
 }
 
