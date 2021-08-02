@@ -18,8 +18,18 @@
 
 body {
 	font-family: Roboto;
+	// position: absolute;
 }
 
+.title {
+	position: relative;
+	width: 100%;
+}
+
+header {
+	position: relative;
+	width: 100%;
+}
 
 #logo_omyfood_header {
 	width: 30rem;
@@ -70,7 +80,7 @@ body {
 header {
 	display: flex;
 	flex-direction: column;
-	padding-top: 1.5rem;
+	padding-top: 1rem;
 }
 
 .location {
