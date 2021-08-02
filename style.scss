@@ -20,11 +20,6 @@ body {
 	font-family: Roboto;
 }
 
-.title {
-	// border: 2px solid red;
-	@include struct_row_center;
-
-}
 
 #logo_omyfood_header {
 	width: 30rem;
@@ -66,15 +61,14 @@ header {
 	display: flex;
 	flex-direction: column;
 	// background: $color-location;
-	padding-top: 2rem;
+	padding-top: 1.5rem;
 }
 
 .location {
-
 	background: $color-location;
 }
 
-
+.title,
 .location,
 .presentation>h1,
 .presentation>h2,
@@ -83,7 +77,8 @@ header {
 }
 
 
-.fonctionnement {
+.fonctionnement,
+.presentation {
 	@include padding_top_bottom;
 }
 
@@ -101,8 +96,6 @@ header {
 .presentation {
 	background: $color-btn;
 	@include padding_left_right;
-	@include padding_top_bottom;
-	// width: 100%;
 	position: relative;
 }
 
