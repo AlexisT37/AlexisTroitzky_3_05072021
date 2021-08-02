@@ -77,6 +77,8 @@ header {
   -webkit-box-shadow: inset 0 9px 3px -7px silver;
           box-shadow: inset 0 9px 3px -7px silver;
   background: #e9e9e9;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .title,
