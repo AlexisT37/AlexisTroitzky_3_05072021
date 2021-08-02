@@ -31,7 +31,8 @@ body {
   font-size: 1.4rem;
 }
 
-.presentation > h2, .location > h1 {
+.presentation > h2,
+.location > h1 {
   font-size: 0.9rem;
   font-weight: lighter;
 }
@@ -56,8 +57,14 @@ body {
 }
 
 #button_explore {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#9356DC));
-  background-image: linear-gradient(white, #9356DC);
+  font-size: 0.9rem;
+  color: #FFFFFF;
+  padding: .9rem 1.5rem .9rem 1.5rem;
+  border: none;
+  background: none;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
+  background-image: linear-gradient(#FF79DA, #9356DC);
+  border-radius: 25px;
 }
 
 .logo_map_marker,
