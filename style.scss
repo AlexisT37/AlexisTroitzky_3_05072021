@@ -1,6 +1,8 @@
 @import "Utils/mixins.scss";
 @import "Utils/variables.scss";
 
+// font-family: Roboto;
+
 :root {
 	font-size: 62.5%;
 }
@@ -9,12 +11,21 @@
 	overflow-x: hidden;
 }
 
-header {
-	display: flx;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+.title {
+	// border: 2px solid red;
+	@include struct_row_center;
+
 }
+
+#logo_omyfood_header {
+	width: 30rem;
+	height: 2rem;
+	// border: 2px solid green;
+	align-self: center;
+	padding-bottom: 1.5rem;
+
+}
+
 
 .element-logo,
 .choix,
@@ -31,10 +42,19 @@ header {
 }
 
 
-.location {
-	background: $color-location;
-	width: 100%;
+
+header {
+	display: flex;
+	flex-direction: column;
+	// background: $color-location;
+	padding-top: 2rem;
 }
+
+.location {
+	
+	background: $color-location;
+}
+
 
 .location,
 .presentation>h1,
@@ -63,7 +83,8 @@ header {
 	background: $color-btn;
 	@include padding_left_right;
 	@include padding_top_bottom;
-	width: 100%;
+	// width: 100%;
+	position: relative;
 }
 
 footer {
