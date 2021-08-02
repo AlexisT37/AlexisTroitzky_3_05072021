@@ -55,6 +55,11 @@ body {
           align-items: center;
 }
 
+#button_explore {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#9356DC));
+  background-image: linear-gradient(white, #9356DC);
+}
+
 .logo_map_marker,
 .logo_fonctionnement,
 .element-logo img {

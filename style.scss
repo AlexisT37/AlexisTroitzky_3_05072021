@@ -47,6 +47,11 @@ body {
 	@include struct_row;
 }
 
+#button_explore {
+	// border: 2px solid black;
+	background-image: linear-gradient(white, $color-primary);
+	// border-radius: 5px;
+}
 
 .logo_map_marker,
 .logo_fonctionnement,
