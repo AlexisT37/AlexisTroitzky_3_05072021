@@ -35,6 +35,16 @@ body {
 
 }
 
+.presentation>h1,
+.fonctionnement>h2 {
+	font-size: $font-average;
+}
+
+.presentation>h2, .location>h1{
+	font-size: $font-small;
+	font-weight: lighter;
+}
+
 
 .element-logo,
 .choix,

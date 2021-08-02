@@ -44,6 +44,16 @@ body {
   padding-bottom: 1.5rem;
 }
 
+.presentation > h1,
+.fonctionnement > h2 {
+  font-size: 1.4rem;
+}
+
+.presentation > h2, .location > h1 {
+  font-size: 0.9rem;
+  font-weight: lighter;
+}
+
 .element-logo,
 .choix,
 .composer,
