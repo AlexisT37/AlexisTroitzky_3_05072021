@@ -114,6 +114,8 @@ header {
 	padding-bottom: 1rem;
 }
 
+
+
 .icon_number, .nouveau {
 	@include div-center;
 }
@@ -141,8 +143,8 @@ header {
 	position: absolute;
 	overflow: hidden;
 	border-radius: 4px;
-	right: 4rem;
-	top: 6rem;
+	right: 1rem;
+	top: 1rem;
 }
 
 
@@ -186,9 +188,16 @@ header {
 	height: 4rem;
 }
 
+.images_icone_nouveau {
+	position: relative;
+	// @include div-center;
+	// flex-direction: column;
+}
+
+
 .photo_resto {
-	max-width: 100%;
-	height: auto;
+	width: 90vh;
+	height: 30vh;
 	border-radius: 20px 20px 0 0;
 }
 
