@@ -45,7 +45,8 @@ header {
 
 .presentation>h1,
 .fonctionnement>h2 {
-	font-size: $font-average;
+	font-size: 2rem;
+	font-weight: bold;
 }
 
 .presentation>h2,
@@ -62,6 +63,11 @@ header {
 	@include struct_row;
 }
 
+#button_explore {
+	height: 40px;
+	overflow: hidden;
+}
+
 #button_explore button {
 	font-size: $font-small;
 	color: $initial-color;
@@ -76,8 +82,37 @@ header {
 	height: 100%;
 	overflow: hidden;
 	text-decoration: none;
+	transition: transform 50ms ease-in-out;
+
+	&:hover {
+		text-decoration: none;
+		color: $initial-color;
+		transform: scaleX(1.11) scaleY(.99);
+	}
+
 
 }
+
+.fonctionnement
+ {
+	@include struct-col-space;
+	@include padding_left_right;
+}
+
+.choix,
+.composer,
+.deguster {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	background-color: $color-btn;
+	border: none;
+	border-radius: 15px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	width: 100%;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
 
 #button_explore button a {
 	text-decoration: none;

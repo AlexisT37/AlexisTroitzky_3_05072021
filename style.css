@@ -52,7 +52,8 @@ header {
 
 .presentation > h1,
 .fonctionnement > h2 {
-  font-size: 1.4rem;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .presentation > h2,
@@ -80,6 +81,11 @@ header {
           align-items: center;
 }
 
+#button_explore {
+  height: 40px;
+  overflow: hidden;
+}
+
 #button_explore button {
   font-size: 0.9rem;
   color: #FFFFFF;
@@ -95,6 +101,50 @@ header {
   height: 100%;
   overflow: hidden;
   text-decoration: none;
+  -webkit-transition: -webkit-transform 50ms ease-in-out;
+  transition: -webkit-transform 50ms ease-in-out;
+  transition: transform 50ms ease-in-out;
+  transition: transform 50ms ease-in-out, -webkit-transform 50ms ease-in-out;
+}
+
+#button_explore button:hover {
+  text-decoration: none;
+  color: #FFFFFF;
+  -webkit-transform: scaleX(1.11) scaleY(0.99);
+          transform: scaleX(1.11) scaleY(0.99);
+}
+
+.fonctionnement {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.choix,
+.composer,
+.deguster {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: #f6f6f6;
+  border: none;
+  border-radius: 15px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 #button_explore button a {
