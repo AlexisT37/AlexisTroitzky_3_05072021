@@ -301,19 +301,30 @@ header {
   position: relative;
 }
 
-.heart_regular, .heart_filled {
-  width: 3rem;
-  height: 3rem;
-}
-
-.heart_regular {
+.icone_like .heart_regular {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.heart_filled {
+.icone_like .heart_filled {
   display: none;
+}
+
+.icone_like:hover .heart_regular {
+  display: none;
+}
+
+.icone_like:hover .heart_filled {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.heart_regular,
+.heart_filled {
+  width: 3rem;
+  height: 3rem;
 }
 
 .restaurants,
