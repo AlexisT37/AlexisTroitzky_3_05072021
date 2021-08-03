@@ -242,13 +242,19 @@ header {
 
 .icone_like {
 	position: relative;
-
-	& img {
-		width: 3rem;
-		height: 3rem;
-	}
 }
 
+.heart_regular {
+	// fill: #00ff00 important;
+	width: 3rem;
+	height: 3rem;
+		// background-image: linear-gradient($color-primary, $color-secondary);
+	
+	&:hover {
+		fill: #0000FF !important;
+	}
+
+}
 
 .restaurants,
 .presentation {
