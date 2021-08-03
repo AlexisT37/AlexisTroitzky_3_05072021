@@ -92,16 +92,14 @@ header {
   outline: none;
   position: relative;
   cursor: pointer;
+  height: 100%;
+  overflow: hidden;
+  text-decoration: none;
 }
 
-#button_explore button::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0%;
-  right: 0;
-  bottom: 0;
-  border: 2px solid red;
+#button_explore button a {
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 .logo_map_marker,
