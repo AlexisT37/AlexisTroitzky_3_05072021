@@ -115,6 +115,19 @@ header {
 	padding-bottom: 1rem;
 }
 
+.icon_number{
+	background-color: $color-primary;
+		width: 2rem;
+		height: 2rem;
+		border-radius: 20px;
+		overflow: hidden;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: #fff;
+		position: absolute;
+		left: 18px;
+}
 
 #button_explore button a {
 	text-decoration: none;
