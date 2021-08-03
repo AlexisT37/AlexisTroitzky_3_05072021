@@ -94,8 +94,7 @@ header {
 
 }
 
-.fonctionnement
- {
+.fonctionnement {
 	@include struct-col-space;
 	@include padding_left_right;
 	align-items: flex-start;
@@ -115,18 +114,18 @@ header {
 	padding-bottom: 1rem;
 }
 
-.icon_number{
+.icon_number {
 	background-color: $color-primary;
-		width: 2rem;
-		height: 2rem;
-		border-radius: 20px;
-		overflow: hidden;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		color: #fff;
-		position: absolute;
-		left: 18px;
+	width: 2rem;
+	height: 2rem;
+	border-radius: 20px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	position: absolute;
+	left: 18px;
 }
 
 #button_explore button a {
@@ -135,6 +134,22 @@ header {
 }
 
 
+
+.nouveau {
+	background-color: $color-tertiary;
+	color: $color-nouveau-icone;
+	width: 8rem;
+	height: 3rem;
+	position: absolute;
+	overflow: hidden;
+	border-radius: 5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	right: 4rem;
+	top: 6rem;
+}
 
 
 .logo_map_marker,
