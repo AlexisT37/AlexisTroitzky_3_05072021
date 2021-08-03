@@ -116,7 +116,8 @@ header {
 
 
 
-.icon_number, .nouveau {
+.icon_number,
+.nouveau {
 	@include div-center;
 }
 
@@ -128,7 +129,7 @@ header {
 	overflow: hidden;
 	color: #fff;
 	left: 18px;
-	
+
 }
 
 
@@ -196,9 +197,12 @@ header {
 
 
 .photo_resto {
-	width: 90vh;
-	height: 30vh;
+	width: 100%;
+	max-height: 18rem;
+	height: auto;
 	border-radius: 20px 20px 0 0;
+	object-fit: cover;
+	object-position: 50% 50%;
 }
 
 .restaurants,
