@@ -153,12 +153,7 @@ header {
   padding-bottom: 1rem;
 }
 
-.icon_number {
-  background-color: #9356DC;
-  width: 2rem;
-  height: 2rem;
-  border-radius: 20px;
-  overflow: hidden;
+.icon_number, .nouveau {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -168,14 +163,17 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #fff;
   position: absolute;
-  left: 18px;
 }
 
-#button_explore button a {
-  text-decoration: none;
-  color: #FFFFFF;
+.icon_number {
+  background-color: #9356DC;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 20px;
+  overflow: hidden;
+  color: #fff;
+  left: 18px;
 }
 
 .nouveau {
@@ -185,17 +183,7 @@ header {
   height: 3rem;
   position: absolute;
   overflow: hidden;
-  border-radius: 5%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  position: absolute;
+  border-radius: 4px;
   right: 4rem;
   top: 6rem;
 }
@@ -205,6 +193,11 @@ header {
 .element-logo img {
   width: 1.5rem;
   height: 1.5rem;
+}
+
+#button_explore button a {
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 .location {
