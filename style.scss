@@ -61,6 +61,7 @@ header {
 .composer,
 .deguster {
 	@include struct_row;
+	justify-content: space-evenly;
 }
 
 #button_explore {
@@ -97,6 +98,7 @@ header {
  {
 	@include struct-col-space;
 	@include padding_left_right;
+	align-items: flex-start;
 }
 
 .choix,
