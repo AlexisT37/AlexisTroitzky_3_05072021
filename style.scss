@@ -244,16 +244,16 @@ header {
 	position: relative;
 }
 
-.heart_regular {
-	// fill: #00ff00 important;
-	width: 3rem;
-	height: 3rem;
-		// background-image: linear-gradient($color-primary, $color-secondary);
-	
-	&:hover {
-		fill: #0000FF !important;
-	}
+.heart_regular,  .heart_filled{
+	@include icon_resize_heart;
+}
 
+.heart_regular {
+	display: flex;
+}
+
+.heart_filled {
+	display: none;
 }
 
 .restaurants,

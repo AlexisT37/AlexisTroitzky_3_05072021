@@ -28,14 +28,14 @@ header {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-top: 1rem;
   position: relative;
   width: auto;
@@ -45,19 +45,19 @@ header {
   width: 30rem;
   height: 2rem;
   -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   padding-bottom: 1rem;
 }
 
-.presentation>h1,
-.fonctionnement>h2 {
+.presentation > h1,
+.fonctionnement > h2 {
   font-size: 2rem;
   font-weight: bold;
 }
 
-.presentation>h2,
-.location>h1 {
+.presentation > h2,
+.location > h1 {
   font-size: 0.9rem;
   font-weight: lighter;
 }
@@ -71,17 +71,17 @@ header {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: left;
-  -ms-flex-pack: left;
-  justify-content: left;
+      -ms-flex-pack: left;
+          justify-content: left;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 #button_explore {
@@ -114,7 +114,7 @@ header {
   text-decoration: none;
   color: #FFFFFF;
   -webkit-transform: scaleX(1.11) scaleY(0.99);
-  transform: scaleX(1.11) scaleY(0.99);
+          transform: scaleX(1.11) scaleY(0.99);
 }
 
 .fonctionnement {
@@ -123,19 +123,19 @@ header {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-left: 2rem;
   padding-right: 2rem;
   -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .choix,
@@ -147,7 +147,7 @@ header {
   border: none;
   border-radius: 15px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   width: 100%;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -159,11 +159,11 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: absolute;
 }
 
@@ -208,7 +208,7 @@ header {
 
 .location {
   -webkit-box-shadow: inset 0 9px 3px -7px silver;
-  box-shadow: inset 0 9px 3px -7px silver;
+          box-shadow: inset 0 9px 3px -7px silver;
   background: #e9e9e9;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -216,22 +216,22 @@ header {
 
 .title,
 .location,
-.presentation>h1,
-.presentation>h2,
+.presentation > h1,
+.presentation > h2,
 #button_explore {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
   width: 100%;
 }
@@ -257,9 +257,9 @@ header {
   height: auto;
   border-radius: 20px 20px 0 0;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   -o-object-position: 50% 50%;
-  object-position: 50% 50%;
+     object-position: 50% 50%;
 }
 
 .titre_lieu h2 {
@@ -283,14 +283,14 @@ header {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #FFFFFF;
   border-radius: 0 0 20px 20px;
   padding-left: 1rem;
@@ -299,23 +299,21 @@ header {
 
 .icone_like {
   position: relative;
-
-  /* & a:hover {
-    
-  } */
 }
 
-
-
-.heart_regular {
+.heart_regular, .heart_filled {
   width: 3rem;
   height: 3rem;
 }
 
+.heart_regular {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 
-
-.heart_regular:hover {
-  fill: #0000FF !important;
+.heart_filled {
+  display: none;
 }
 
 .restaurants,
@@ -331,5 +329,4 @@ footer {
   background: #353535;
   color: #FFFFFF;
 }
-
 /*# sourceMappingURL=style.css.map */

@@ -8,7 +8,14 @@
 @mixin icon_resize {
 	width: 1.5rem;
 	height: 1.5rem;
+
 }
+@mixin icon_resize_heart {
+	width: 3rem;
+	height: 3rem;
+}
+
+
 
 @mixin struct_row_center {
 	display: flex;
