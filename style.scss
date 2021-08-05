@@ -64,13 +64,12 @@ header {
 
 .choix,
 .composer,
-.deguster {
+.deguster,
+.element-logo {
 	@include struct_row;
 }
 
 .element-logo {
-	@include struct_row;
-
 	& h2 {
 		margin-left: 1rem;
 	}
@@ -333,3 +332,5 @@ footer {
 	@include struct-col-space;
 	align-items: flex-start;
 }
+
+
