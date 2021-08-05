@@ -5,6 +5,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: Shrikhand;
+  src: url("fonts/Shrikhand-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   font-size: 62.5%;
 }
