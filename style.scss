@@ -27,10 +27,8 @@ body {
 
 
 header {
-	display: flex;
+	@include div-center;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 	padding-top: 1rem;
 	position: relative;
 	width: auto;
@@ -140,6 +138,7 @@ header {
 .icon_number,
 .nouveau {
 	@include div-center;
+	position: absolute;
 }
 
 .icon_number {
