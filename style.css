@@ -17,8 +17,16 @@ body {
   font-family: Roboto;
 }
 
-.title {
+.title,
+header,
+#button_explore button,
+.images_icone_nouveau,
+.icone_like,
+.presentation {
   position: relative;
+}
+
+.title {
   width: auto;
 }
 
@@ -37,7 +45,6 @@ header {
       -ms-flex-direction: column;
           flex-direction: column;
   padding-top: 1rem;
-  position: relative;
   width: auto;
 }
 
@@ -105,7 +112,6 @@ header {
   background-image: linear-gradient(#FF79DA, #9356DC);
   border-radius: 25px;
   outline: none;
-  position: relative;
   cursor: pointer;
   height: 100%;
   overflow: hidden;
@@ -273,10 +279,6 @@ header {
   height: 4rem;
 }
 
-.images_icone_nouveau {
-  position: relative;
-}
-
 .photo_resto {
   width: 100%;
   max-height: 18rem;
@@ -333,10 +335,6 @@ header {
   padding-right: 1rem;
 }
 
-.icone_like {
-  position: relative;
-}
-
 .icone_like .heart_regular {
   position: absolute;
   opacity: 1;
@@ -367,7 +365,6 @@ header {
   background: #f6f6f6;
   padding-left: 2rem;
   padding-right: 2rem;
-  position: relative;
 }
 
 footer {

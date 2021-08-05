@@ -20,8 +20,17 @@ body {
 	font-family: Roboto;
 }
 
-.title {
+.title,
+header,
+#button_explore button,
+.images_icone_nouveau,
+.icone_like,
+.presentation
+	{
 	position: relative;
+}
+
+.title {
 	width: auto;
 }
 
@@ -30,7 +39,6 @@ header {
 	@include div-center;
 	flex-direction: column;
 	padding-top: 1rem;
-	position: relative;
 	width: auto;
 }
 
@@ -57,8 +65,6 @@ header {
 	font-size: $font-small;
 	font-weight: lighter;
 }
-
-
 
 .choix,
 .composer,
@@ -88,7 +94,6 @@ header {
 	background-image: linear-gradient($color-secondary, $color-primary);
 	border-radius: 25px;
 	outline: none;
-	position: relative;
 	cursor: pointer;
 	height: 100%;
 	overflow: hidden;
@@ -149,7 +154,6 @@ header {
 	overflow: hidden;
 	color: #fff;
 	left: 18px;
-
 }
 
 
@@ -221,11 +225,6 @@ header {
 	height: 4rem;
 }
 
-.images_icone_nouveau {
-	position: relative;
-}
-
-
 .photo_resto {
 	width: 100%;
 	max-height: 18rem;
@@ -281,7 +280,6 @@ header {
 
 
 .icone_like {
-	position: relative;
 
 	& .heart_regular {
 		position: absolute;
@@ -321,7 +319,6 @@ header {
 .presentation {
 	background: $color-btn;
 	@include padding_left_right;
-	position: relative;
 }
 
 footer {
@@ -331,5 +328,3 @@ footer {
 	@include struct-col-space;
 	align-items: flex-start;
 }
-
-
