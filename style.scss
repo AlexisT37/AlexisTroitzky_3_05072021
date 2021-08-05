@@ -34,7 +34,6 @@ header,
 	width: auto;
 }
 
-
 header {
 	@include div-center;
 	flex-direction: column;
@@ -77,7 +76,6 @@ header {
 	& h2 {
 		margin-left: 1rem;
 	}
-
 }
 
 #button_explore {
@@ -105,7 +103,6 @@ header {
 		color: $initial-color;
 		transform: scaleX(1.11) scaleY(.99);
 	}
-
 
 }
 
@@ -156,10 +153,6 @@ header {
 	left: 18px;
 }
 
-
-
-
-
 .nouveau {
 	background-color: $color-tertiary;
 	color: $color-nouveau-icone;
@@ -177,14 +170,11 @@ header {
 	}
 }
 
-
 .logo_map_marker,
 .logo_fonctionnement,
 .element-logo img {
 	@include icon_resize;
 }
-
-
 
 #button_explore button a {
 	text-decoration: none;
@@ -192,7 +182,6 @@ header {
 	font-size: 1.5rem;
 	font-weight: 600;
 }
-
 
 .location {
 	box-shadow: inset 0 9px 3px -7px silver;
@@ -213,7 +202,6 @@ header {
 #button_explore {
 	@include struct_row_center;
 }
-
 
 .fonctionnement,
 .presentation {
@@ -265,8 +253,6 @@ header {
 	opacity: 0;
 }
 
-
-
 .titre_icone {
 	display: flex;
 	flex-direction: row;
@@ -277,7 +263,6 @@ header {
 	padding-left: 1rem;
 	padding-right: 1rem;
 }
-
 
 .icone_like {
 
@@ -295,25 +280,18 @@ header {
 
 		& .heart_regular {
 			opacity: 0;
-
 		}
 
 		& .heart_filled {
 			opacity: 1;
-
 		}
-
-
 	}
-
 }
 
 .heart_regular,
 .heart_filled {
 	@include icon_resize_heart;
 }
-
-
 
 .restaurants,
 .presentation {
