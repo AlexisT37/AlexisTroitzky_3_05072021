@@ -9,7 +9,7 @@
 }
 
 @font-face {
-	font-family: Shrikhand ;
+	font-family: Shrikhand;
 	src: url('fonts/Shrikhand-Regular.ttf');
 	font-weight: normal;
 	font-style: normal;
@@ -409,20 +409,43 @@ footer {
 	object-position: 50% 50%;
 }
 
-.titre_lieu a h2 {
+.resto_menu {
 	font-family: Shrikhand;
-	font-size: 2.9rem;
-	font-weight: 300;
+	font-size: 2.9rem !important;
+	font-weight: 300 !important;
 }
 
 hr {
-    display: block;
-    height: 1px;
-    width: 40px;
-    border: 0;
-    border-top: 3px solid $color-tertiary;
-    margin: 1em 0;
-    padding: 0;
+	display: block;
+	height: 1px;
+	width: 40px;
+	border: 0;
+	border-top: 3px solid $color-tertiary;
+	margin: 1em 0;
+	padding: 0;
+}
+
+.menu {
+	background-color: $color-btn;
+}
+
+.entrees,
+.plats,
+.desserts {
+	padding: 1rem;
+	background-color: $color-btn;
+	& h3 {
+		font-size: 1.5rem !important;
+		font-weight: 100 !important;
+	}
+}
+
+
+
+.entree_element,
+.plats_element,
+.desserts_element {
+	border-radius: 30px;
 }
 
 // Menu 1, 2, 3, 4 FIN
