@@ -78,9 +78,6 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
 }
 
 .element-logo {
@@ -170,6 +167,19 @@ header {
   width: 100%;
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.choix,
+.composer,
+.deguster {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.logo_fonctionnement {
+  margin-right: 2rem;
+  margin-left: 2rem;
 }
 
 .icon_number,
@@ -296,11 +306,13 @@ header {
   margin-bottom: 1rem;
 }
 
-#nouveau_1, #nouveau_2 {
+#nouveau_1,
+#nouveau_2 {
   opacity: 1;
 }
 
-#nouveau_3, #nouveau_4 {
+#nouveau_3,
+#nouveau_4 {
   opacity: 0;
 }
 

@@ -61,7 +61,6 @@ header {
 .composer,
 .deguster {
 	@include struct_row;
-	justify-content: space-evenly;
 }
 
 .element-logo {
@@ -123,7 +122,16 @@ header {
 	padding-bottom: 1rem;
 }
 
+.choix,
+.composer,
+.deguster {
+	justify-content: flex-start;
+}
 
+.logo_fonctionnement {
+	margin-right: 2rem;
+	margin-left: 2rem;
+}
 
 .icon_number,
 .nouveau {
@@ -240,10 +248,13 @@ header {
 
 // affichage des icones nouveaux ou non
 
-#nouveau_1, #nouveau_2 {
+#nouveau_1,
+#nouveau_2 {
 	opacity: 1;
 }
-#nouveau_3, #nouveau_4 {
+
+#nouveau_3,
+#nouveau_4 {
 	opacity: 0;
 }
 
