@@ -318,6 +318,15 @@ header {
   font-size: 1.5rem;
 }
 
+.titre_lieu a {
+  color: black;
+  text-decoration: none;
+}
+
+.titre_lieu a :visited {
+  text-decoration: none;
+}
+
 .carte_resto {
   margin-top: 1rem;
   margin-bottom: 1rem;
