@@ -56,12 +56,20 @@ header {
 }
 
 
-.element-logo,
+
 .choix,
 .composer,
 .deguster {
 	@include struct_row;
 	justify-content: space-evenly;
+}
+
+.element-logo {
+	@include struct_row;
+	& h2 {
+		margin-left: 1rem;
+	}
+
 }
 
 #button_explore {
