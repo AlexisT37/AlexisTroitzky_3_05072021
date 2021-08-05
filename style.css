@@ -58,7 +58,11 @@ header {
   height: 120px;
   -webkit-animation: spin 1s linear 4;
           animation: spin 1s linear 4;
-  position: relative;
+  position: absolute;
+  background-color: blue;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
 }
 
 @-webkit-keyframes spin {
@@ -69,6 +73,7 @@ header {
   100% {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
+    display: none;
   }
 }
 
@@ -80,13 +85,16 @@ header {
   100% {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
+    display: none;
   }
 }
 
 .container {
+  left: 0;
+  top: 0;
   width: 100%;
   height: 100%;
-  position: absolute;
+  position: fixed;
   background-color: #e9e9e9;
   z-index: 1;
   display: -webkit-box;
@@ -98,29 +106,31 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-animation: fade_out 400ms 4s;
-          animation: fade_out 400ms 4s;
+  -webkit-animation: contain 4s cubic-bezier(1, 0, 1, 1) forwards;
+          animation: contain 4s cubic-bezier(1, 0, 1, 1) forwards;
 }
 
-@-webkit-keyframes fade_out {
+@-webkit-keyframes contain {
   0% {
-    -webkit-transform: display(block);
-            transform: display(block);
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
   }
   100% {
-    -webkit-transform: display(none);
-            transform: display(none);
+    opacity: 0;
   }
 }
 
-@keyframes fade_out {
+@keyframes contain {
   0% {
-    -webkit-transform: display(block);
-            transform: display(block);
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
   }
   100% {
-    -webkit-transform: display(none);
-            transform: display(none);
+    opacity: 0;
   }
 }
 

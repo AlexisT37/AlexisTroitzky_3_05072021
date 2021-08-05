@@ -51,11 +51,17 @@ header {
 	width: 120px;
 	height: 120px;
 	animation: spin 1s linear 4;
-	position: relative;
-	
-	
-	
+	position: absolute;
+	background-color: blue;
+	left: 50%;
+	top: 50%;
+	z-index: 1;
+	// animation : contain;
+
 }
+
+
+
 
 @keyframes spin {
 	0% {
@@ -64,34 +70,40 @@ header {
 
 	100% {
 		transform: rotate(360deg);
-		// display: none;
+		display: none;
 	}
 
 }
 
 .container {
+	left: 0;
+	top: 0;
 	width: 100%;
 	height: 100%;
-	position: absolute;
+	position: fixed;
 	background-color: $color-location;
 	z-index: 1;
 	@include div-center;
-	animation : fade_out 400ms 4s;
-
-	@keyframes fade_out {
-		0% {
-			transform: display(block);
-		}
-	
-		100% {
-			transform: display(none);
-			// display: none;
-		}
-
-	}
-	
+	animation: contain 4s cubic-bezier( 1, 0, 1, 1 ) forwards;
 }
 
+
+@keyframes contain {
+	0% {
+		// transform: scaleX(1);
+		opacity: 1;
+	}
+
+	90% {
+		// display: scaleX(3);
+		opacity: 1;
+	}
+
+	100% {
+		// display: scaleX(3);
+		opacity: 0;
+	}
+}
 
 
 // spinner FIN
