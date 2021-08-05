@@ -44,23 +44,15 @@ header {
 
 .loader {
 	border: 16px solid #f3f3f3;
-	/* Light grey */
 	border-top: 16px solid #3498db;
-	/* Blue */
 	border-radius: 50%;
 	width: 120px;
 	height: 120px;
 	animation: spin 1s linear 4;
 	position: absolute;
 	background-color: blue;
-	left: 50%;
-	top: 50%;
 	z-index: 1;
-	// animation : contain;
-
 }
-
-
 
 
 @keyframes spin {
@@ -72,7 +64,6 @@ header {
 		transform: rotate(360deg);
 		display: none;
 	}
-
 }
 
 .container {
@@ -84,23 +75,21 @@ header {
 	background-color: $color-location;
 	z-index: 1;
 	@include div-center;
-	animation: contain 4s cubic-bezier( 1, 0, 1, 1 ) forwards;
+	flex-direction: column;
+	animation: contain 4s cubic-bezier(1, 0, 1, 1) forwards;
 }
 
 
 @keyframes contain {
 	0% {
-		// transform: scaleX(1);
 		opacity: 1;
 	}
 
 	90% {
-		// display: scaleX(3);
 		opacity: 1;
 	}
 
 	100% {
-		// display: scaleX(3);
 		opacity: 0;
 	}
 }
