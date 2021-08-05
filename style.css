@@ -43,7 +43,7 @@ header {
 
 #logo_omyfood_header {
   width: 30rem;
-  height: 2rem;
+  height: 3.25rem;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -241,6 +241,11 @@ header {
   background: #e9e9e9;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+.location h1 {
+  font-size: 1.4rem;
+  margin-left: 1rem;
 }
 
 .title,
