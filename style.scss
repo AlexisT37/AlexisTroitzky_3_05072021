@@ -42,30 +42,30 @@ header {
 
 // spinner DEBUT
 
-.loader {
-	border-top: 16px solid blue;
-	border-right: 16px solid green;
-	border-bottom: 16px solid red;
-	border-left: 16px solid yellow;
-	border-radius: 50%;
-	width: 120px;
-	height: 120px;
-	animation: spin 5s linear;
-	z-index: 1;
+// .loader {
+// 	border-top: 16px solid blue;
+// 	border-right: 16px solid green;
+// 	border-bottom: 16px solid red;
+// 	border-left: 16px solid yellow;
+// 	border-radius: 50%;
+// 	width: 120px;
+// 	height: 120px;
+// 	animation: spin 5s linear;
+// 	z-index: 1;
 
-}
+// }
 
-@keyframes spin {
-	0% {
-		transform: rotate(0deg);
-		opacity: 1;
-	}
+// @keyframes spin {
+// 	0% {
+// 		transform: rotate(0deg);
+// 		opacity: 1;
+// 	}
 
-	100% {
-		transform: rotate(360deg);
-		opacity: 0;
-	}
-}
+// 	100% {
+// 		transform: rotate(360deg);
+// 		opacity: 0;
+// 	}
+// }
 
 // spinner FIN
 
@@ -179,6 +179,16 @@ header {
 	overflow: hidden;
 	color: #fff;
 	left: 18px;
+}
+
+.title_resto {
+	@include div-center;
+
+	& a img {
+		width: 3rem;
+		height: 3rem;
+	}
+	padding-bottom: 1rem;
 }
 
 .nouveau {
