@@ -66,6 +66,7 @@ header {
 
 .element-logo {
 	@include struct_row;
+
 	& h2 {
 		margin-left: 1rem;
 	}
@@ -237,6 +238,17 @@ header {
 	margin-bottom: 1rem;
 }
 
+// affichage des icones nouveaux ou non
+
+#nouveau_1, #nouveau_2 {
+	opacity: 1;
+}
+#nouveau_3, #nouveau_4 {
+	opacity: 0;
+}
+
+
+
 .titre_icone {
 	display: flex;
 	flex-direction: row;
@@ -260,21 +272,27 @@ header {
 	position: relative;
 
 	& .heart_regular {
-		display: flex;
+		position: absolute;
+		// display: flex;
+		opacity: 1;
 	}
 
 	& .heart_filled {
-		display: none;
+		// display: none;
+		opacity: 0;
 	}
 
 	&:hover {
 
 		& .heart_regular {
-			display: none;
+			// display: none;
+			opacity: 0;
+
 		}
 
 		& .heart_filled {
-			display: flex;
+			// display: flex;
+			opacity: 1;
 
 		}
 
@@ -301,4 +319,6 @@ footer {
 	padding: 2rem 0 4rem 2rem;
 	background: $color-footer;
 	color: $initial-color;
+	@include struct-col-space;
+	align-items: flex-start;
 }
