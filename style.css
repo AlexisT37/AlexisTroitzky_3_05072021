@@ -355,6 +355,8 @@ header {
 .icone_like .heart_regular {
   position: absolute;
   opacity: 1;
+  -webkit-transition: opacity 150ms;
+  transition: opacity 150ms;
 }
 
 .icone_like .heart_filled {

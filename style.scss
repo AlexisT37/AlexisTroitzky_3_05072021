@@ -225,8 +225,6 @@ header {
 
 .images_icone_nouveau {
 	position: relative;
-	// @include div-center;
-	// flex-direction: column;
 }
 
 
@@ -283,38 +281,28 @@ header {
 	padding-right: 1rem;
 }
 
-// .heart_regular {
-// 	display: flex;
-// }
-
-// .heart_filled {
-// 	display: flex;
-// }
 
 .icone_like {
 	position: relative;
 
 	& .heart_regular {
 		position: absolute;
-		// display: flex;
 		opacity: 1;
+		transition: opacity 150ms;
 	}
 
 	& .heart_filled {
-		// display: none;
 		opacity: 0;
 	}
 
 	&:hover {
 
 		& .heart_regular {
-			// display: none;
 			opacity: 0;
 
 		}
 
 		& .heart_filled {
-			// display: flex;
 			opacity: 1;
 
 		}
