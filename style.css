@@ -534,4 +534,10 @@ footer {
   -o-object-position: 50% 50%;
      object-position: 50% 50%;
 }
+
+.titre_lieu a h2 {
+  font-family: Shrikhand;
+  font-size: 2.9rem;
+  font-weight: 300;
+}
 /*# sourceMappingURL=style.css.map */
