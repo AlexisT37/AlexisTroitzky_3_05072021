@@ -61,8 +61,8 @@ header {
   border-radius: 50%;
   width: 120px;
   height: 120px;
-  -webkit-animation: spin 1s linear 4;
-          animation: spin 1s linear 4;
+  -webkit-animation: spin 1s linear 2;
+          animation: spin 1s linear 2;
   position: absolute;
   background-color: blue;
   z-index: 1;
@@ -113,8 +113,8 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-animation: contain 4s cubic-bezier(1, 0, 1, 1) forwards;
-          animation: contain 4s cubic-bezier(1, 0, 1, 1) forwards;
+  -webkit-animation: contain 2s cubic-bezier(1, 0, 1, 1) forwards;
+          animation: contain 2s cubic-bezier(1, 0, 1, 1) forwards;
 }
 
 @-webkit-keyframes contain {
@@ -621,6 +621,47 @@ hr {
 .desserts_element:hover {
   -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 35px;
           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 35px;
+}
+
+.element_1 {
+  -webkit-animation: appear 1000ms 200ms ease-in-out backwards;
+          animation: appear 1000ms 200ms ease-in-out backwards;
+}
+
+.element_2 {
+  -webkit-animation: appear 1000ms 300ms ease-in-out backwards;
+          animation: appear 1000ms 300ms ease-in-out backwards;
+}
+
+.element_3 {
+  -webkit-animation: appear 1000ms 500ms ease-in-out backwards;
+          animation: appear 1000ms 500ms ease-in-out backwards;
+}
+
+@-webkit-keyframes appear {
+  0% {
+    -webkit-transform: translateY(3rem);
+            transform: translateY(3rem);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes appear {
+  0% {
+    -webkit-transform: translateY(3rem);
+            transform: translateY(3rem);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .titre_element {
