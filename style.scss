@@ -444,6 +444,10 @@ hr {
 		font-weight: 100 !important;
 		margin-bottom: 0.5rem;
 	}
+
+	& hr {
+		margin-bottom: 1rem;
+	}
 }
 
 
@@ -463,6 +467,10 @@ hr {
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 	margin-bottom: 1.5rem;
 	padding-left: 1rem;
+
+	&:hover {
+		box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 35px;
+	}
 }
 
 .titre_element {
