@@ -466,14 +466,14 @@ hr {
 	align-items: center;
 	border: none;
 	background-color: $initial-color;
-	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
 	margin-bottom: 1.5rem;
 	padding-left: 1rem;
 
 
 
 	&:hover {
-		box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 35px;
+		box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 10px;
 	}
 
 }

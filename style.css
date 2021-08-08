@@ -611,8 +611,8 @@ hr {
           align-items: center;
   border: none;
   background-color: #FFFFFF;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
   margin-bottom: 1.5rem;
   padding-left: 1rem;
 }
@@ -620,8 +620,8 @@ hr {
 .entree_element:hover,
 .plats_element:hover,
 .desserts_element:hover {
-  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 35px;
-          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 35px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 10px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 10px;
 }
 
 .element_1 {
