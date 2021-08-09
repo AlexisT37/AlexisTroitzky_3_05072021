@@ -490,7 +490,15 @@ hr {
 	}
 }
 
-
+.green {
+	width: 100px;
+	height: 70px;
+	background-color: $color-tertiary;
+	border-radius: 0 15px 15px 0;
+	margin-right: 0;
+	z-index: -1;
+	position: absolute;
+}
 
 .entree_element,
 .plats_element,
@@ -508,12 +516,38 @@ hr {
 	margin-bottom: 1.5rem;
 	padding-left: 1rem;
 
-
+	&:active {
+		padding-right: 0;
+		padding-top: 0;
+		padding-bottom: 0;
+		&>.green {
+			outline: none;
+			animation: selection_plat 600ms ease-in-out forwards;
+		}
+	}
 
 	&:hover {
 		box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 10px;
 	}
 
+}
+
+@keyframes selection_plat {
+	0% {
+		transform-origin: center right;
+		transform: translateX(400px);
+		z-index: 1;
+		position: relative;
+
+	}
+
+
+	100% {
+
+		transform: translateX(0px);
+		z-index: 1;
+		position: relative;
+	}
 }
 
 .element_1 {
@@ -538,11 +572,6 @@ hr {
 		transform: translateY(3rem);
 		opacity: 0;
 	}
-
-	// 30% {
-	// 	transform: translateY(3rem);
-	// 	opacity: 0;
-	// }
 
 
 	100% {
