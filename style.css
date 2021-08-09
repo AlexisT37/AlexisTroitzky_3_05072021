@@ -439,6 +439,19 @@ header {
   text-decoration: none;
 }
 
+#main_titre_menu {
+  margin-top: 0 !important;
+}
+
+.main_titre_menu {
+  background-color: #f6f6f6 !important;
+}
+
+.main_titre_menu h2 {
+  font-family: Shrikhand;
+  font-size: 3rem;
+}
+
 .carte_resto {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -661,6 +674,11 @@ hr {
 .element_3 {
   -webkit-animation: appear 1000ms 500ms ease-in-out backwards;
           animation: appear 1000ms 500ms ease-in-out backwards;
+}
+
+.element_4 {
+  -webkit-animation: appear 1000ms 700ms ease-in-out backwards;
+          animation: appear 1000ms 700ms ease-in-out backwards;
 }
 
 @-webkit-keyframes appear {
