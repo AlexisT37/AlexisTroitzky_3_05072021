@@ -312,11 +312,14 @@ header {
 	& h2 {
 		font-weight: 600;
 		font-size: 1.9rem;
+		margin-bottom: 0.5rem !important;
 	}
 
 	& h3 {
 		font-weight: 100;
 		font-size: 1.5rem;
+		margin-top: 0.5rem !important;
+
 	}
 
 	& a {
@@ -332,6 +335,9 @@ header {
 .carte_resto {
 	margin-top: 1rem;
 	margin-bottom: 1rem;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+	border-radius: 20px 20px 20px 20px;
+
 }
 
 // affichage des icones nouveaux ou non
@@ -352,7 +358,7 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	background-color: $initial-color;
-	border-radius: 0 0 20px 20px;
+	border-radius: 20px 20px 20px 20px;
 	padding-left: 1rem;
 	padding-right: 1rem;
 }
@@ -390,6 +396,10 @@ header {
 .presentation {
 	background: $color-btn;
 	@include padding_left_right;
+}
+
+#restaurants {
+	padding-bottom: 5rem;
 }
 
 footer {
