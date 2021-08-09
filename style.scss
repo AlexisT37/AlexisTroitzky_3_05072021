@@ -340,6 +340,21 @@ header {
 
 }
 
+.carte_menu {
+	box-shadow: none;
+
+}
+
+.button_commander {
+	margin-top: 3rem;
+	margin-bottom: 4rem;
+
+	& a {
+		font-size: 1.4rem !important;
+		font-weight: 600 !important;
+	}
+}
+
 // affichage des icones nouveaux ou non
 
 #nouveau_1,
