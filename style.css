@@ -628,8 +628,8 @@ hr {
 }
 
 .green {
-  width: 100px;
-  height: 70px;
+  width: 7rem;
+  height: 10rem;
   background-color: #99E2D0;
   border-radius: 0 15px 15px 0;
   margin-right: 0;
@@ -693,8 +693,8 @@ hr {
   0% {
     -webkit-transform-origin: center right;
             transform-origin: center right;
-    -webkit-transform: translateX(400px);
-            transform: translateX(400px);
+    -webkit-transform: translateX(7rem);
+            transform: translateX(7rem);
     z-index: -1;
     position: relative;
     opacity: 0;
@@ -712,8 +712,8 @@ hr {
   0% {
     -webkit-transform-origin: center right;
             transform-origin: center right;
-    -webkit-transform: translateX(400px);
-            transform: translateX(400px);
+    -webkit-transform: translateX(7rem);
+            transform: translateX(7rem);
     z-index: -1;
     position: relative;
     opacity: 0;

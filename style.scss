@@ -491,8 +491,8 @@ hr {
 }
 
 .green {
-	width: 100px;
-	height: 70px;
+	width: 7rem;
+	height: 10rem;
 	background-color: $color-tertiary;
 	border-radius: 0 15px 15px 0;
 	margin-right: 0;
@@ -538,7 +538,7 @@ hr {
 @keyframes selection_plat_in {
 	0% {
 		transform-origin: center right;
-		transform: translateX(400px);
+		transform: translateX(7rem);
 		z-index: -1;
 		position: relative;
 		opacity: 0;
