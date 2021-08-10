@@ -499,6 +499,33 @@ hr {
 	z-index: -1;
 	opacity: 0;
 	position: absolute;
+	@include div-center;
+}
+
+.logo_check {
+	@include icon_resize_heart;
+	animation: icon_rotation 3s 1s ease-in-out backwards infinite;
+}
+
+@keyframes icon_rotation {
+	0% {
+		// transform-origin: center right;
+		transform: rotate(90deg);
+		// z-index: -1;
+		// position: relative;
+		// opacity: 0;
+
+	}
+
+
+
+	100% {
+
+		transform: rotate(360deg);
+		// z-index: 2;
+		// position: relative;
+		// opacity: 1;
+	}
 }
 
 .entree_element,
@@ -523,6 +550,7 @@ hr {
 		padding-right: 0;
 		padding-top: 0;
 		padding-bottom: 0;
+
 		&>.green {
 			outline: none;
 			animation: selection_plat_in 600ms ease-in-out both;
@@ -574,7 +602,7 @@ hr {
 // 		opacity: 0;
 
 // 	}
-	
+
 // }
 
 .element_1 {

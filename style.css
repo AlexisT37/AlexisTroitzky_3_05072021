@@ -636,6 +636,44 @@ hr {
   z-index: -1;
   opacity: 0;
   position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo_check {
+  width: 3rem;
+  height: 3rem;
+  -webkit-animation: icon_rotation 3s 1s ease-in-out backwards infinite;
+          animation: icon_rotation 3s 1s ease-in-out backwards infinite;
+}
+
+@-webkit-keyframes icon_rotation {
+  0% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes icon_rotation {
+  0% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
 }
 
 .entree_element,
