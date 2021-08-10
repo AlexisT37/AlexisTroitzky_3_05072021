@@ -36,11 +36,14 @@ header,
 	position: relative;
 }
 
+
+
 .title {
 	width: auto;
 }
 
-header {
+header,
+.presentation {
 	@include div-center;
 	flex-direction: column;
 	padding-top: 1rem;
@@ -157,7 +160,7 @@ header {
 	overflow: hidden;
 }
 
-#button_explore button {
+#button_explore {
 	font-size: $font-small;
 	color: $initial-color;
 	padding: .9rem 1.5rem .9rem 1.5rem;
@@ -171,11 +174,25 @@ header {
 	overflow: hidden;
 	text-decoration: none;
 	transition: transform 50ms ease-in-out;
+	box-shadow: grey 5px 5px 10px;
+	max-width: 70vw;
 
 	&:hover {
 		text-decoration: none;
 		color: $initial-color;
 		transform: scaleX(1.11) scaleY(.99);
+		box-shadow: grey 5px 5px 20px;
+	}
+
+	& a {
+		text-decoration: none;
+		color: $initial-color;
+
+		&:visited {
+			text-decoration: none;
+			color: $initial-color;
+
+		}
 	}
 
 }
@@ -559,6 +576,7 @@ hr {
 
 	&:hover {
 		box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 10px;
+
 	}
 
 }

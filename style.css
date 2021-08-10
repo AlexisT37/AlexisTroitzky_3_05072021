@@ -37,7 +37,8 @@ header,
   width: auto;
 }
 
-header {
+header,
+.presentation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -212,7 +213,7 @@ header {
   overflow: hidden;
 }
 
-#button_explore button {
+#button_explore {
   font-size: 0.9rem;
   color: #FFFFFF;
   padding: .9rem 1.5rem .9rem 1.5rem;
@@ -230,13 +231,28 @@ header {
   transition: -webkit-transform 50ms ease-in-out;
   transition: transform 50ms ease-in-out;
   transition: transform 50ms ease-in-out, -webkit-transform 50ms ease-in-out;
+  -webkit-box-shadow: grey 5px 5px 10px;
+          box-shadow: grey 5px 5px 10px;
+  max-width: 70vw;
 }
 
-#button_explore button:hover {
+#button_explore:hover {
   text-decoration: none;
   color: #FFFFFF;
   -webkit-transform: scaleX(1.11) scaleY(0.99);
           transform: scaleX(1.11) scaleY(0.99);
+  -webkit-box-shadow: grey 5px 5px 20px;
+          box-shadow: grey 5px 5px 20px;
+}
+
+#button_explore a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+#button_explore a:visited {
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 .fonctionnement {
