@@ -497,6 +497,7 @@ hr {
 	border-radius: 0 15px 15px 0;
 	margin-right: 0;
 	z-index: -1;
+	opacity: 0;
 	position: absolute;
 }
 
@@ -515,6 +516,8 @@ hr {
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
 	margin-bottom: 1.5rem;
 	padding-left: 1rem;
+	z-index: 1;
+	// animation: selection_plat_out 600ms ease-in-out both;
 
 	&:active {
 		padding-right: 0;
@@ -522,7 +525,7 @@ hr {
 		padding-bottom: 0;
 		&>.green {
 			outline: none;
-			animation: selection_plat 600ms ease-in-out forwards;
+			animation: selection_plat_in 600ms ease-in-out both;
 		}
 	}
 
@@ -532,23 +535,47 @@ hr {
 
 }
 
-@keyframes selection_plat {
+@keyframes selection_plat_in {
 	0% {
 		transform-origin: center right;
 		transform: translateX(400px);
-		z-index: 1;
+		z-index: -1;
 		position: relative;
+		opacity: 0;
 
 	}
+
 
 
 	100% {
 
 		transform: translateX(0px);
-		z-index: 1;
+		z-index: 2;
 		position: relative;
+		opacity: 1;
 	}
 }
+
+// @keyframes selection_plat_out {
+// 	0% {
+
+// 		transform: translateX(0px);
+// 		z-index: 2;
+// 		position: relative;
+// 		opacity: 1;
+// 	}
+
+
+// 	100% {
+// 		transform-origin: center right;
+// 		transform: translateX(400px);
+// 		z-index: -1;
+// 		position: relative;
+// 		opacity: 0;
+
+// 	}
+	
+// }
 
 .element_1 {
 	animation: appear 1000ms 200ms ease-in-out backwards;
