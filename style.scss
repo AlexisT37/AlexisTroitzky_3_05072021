@@ -155,13 +155,13 @@ header,
 	}
 }
 
-#button_explore {
+
+#button_explore,
+.button_commander {
 	height: 40px;
 	overflow: hidden;
-}
-
-#button_explore {
-	font-size: $font-small;
+	font-size: $font-average;
+	font-weight: bold;
 	color: $initial-color;
 	padding: .9rem 1.5rem .9rem 1.5rem;
 	border: none;
@@ -378,6 +378,7 @@ header,
 .button_commander {
 	margin-top: 3rem;
 	margin-bottom: 4rem;
+	max-width: 50vw;
 
 	& a {
 		font-size: 1.4rem !important;
@@ -457,6 +458,13 @@ footer {
 
 
 // Menu 1, 2, 3, 4 DEBUT
+
+.menu {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 .photo_resto_menu {
 	width: 100%;
 	max-height: 18rem;

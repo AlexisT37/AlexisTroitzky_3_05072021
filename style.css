@@ -208,13 +208,12 @@ header,
   margin-left: 1rem;
 }
 
-#button_explore {
+#button_explore,
+.button_commander {
   height: 40px;
   overflow: hidden;
-}
-
-#button_explore {
-  font-size: 0.9rem;
+  font-size: 1.4rem;
+  font-weight: bold;
   color: #FFFFFF;
   padding: .9rem 1.5rem .9rem 1.5rem;
   border: none;
@@ -236,7 +235,8 @@ header,
   max-width: 70vw;
 }
 
-#button_explore:hover {
+#button_explore:hover,
+.button_commander:hover {
   text-decoration: none;
   color: #FFFFFF;
   -webkit-transform: scaleX(1.11) scaleY(0.99);
@@ -245,12 +245,14 @@ header,
           box-shadow: grey 5px 5px 20px;
 }
 
-#button_explore a {
+#button_explore a,
+.button_commander a {
   text-decoration: none;
   color: #FFFFFF;
 }
 
-#button_explore a:visited {
+#button_explore a:visited,
+.button_commander a:visited {
   text-decoration: none;
   color: #FFFFFF;
 }
@@ -484,6 +486,7 @@ header,
 .button_commander {
   margin-top: 3rem;
   margin-bottom: 4rem;
+  max-width: 50vw;
 }
 
 .button_commander a {
@@ -577,6 +580,19 @@ footer {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .photo_resto_menu {
