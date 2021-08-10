@@ -20,43 +20,39 @@
     </header>
 
     <section class="content">
-        <img src="images/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="" class="photo_resto_menu">
+        <img src="images/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="" class="photo_resto_menu">
 
 
         <div class="menu">
             <div class="carte_resto carte_menu">
-                <div class="titre_icone">
+                <div class="titre_icone main_titre_menu">
                     <div class="titre_lieu">
                         <a href="restaurant_1.html">
-                            <h2 class="titre resto_menu">La palette du goût</h2>
+                            <h2 class="titre" id="main_titre_menu">La palette du goût</h2>
                         </a>
                     </div>
 
-                    <div class="icone_like">
-                        <btn>
-                            <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="heart" fill="black"
-                                class="heart_regular" role="img" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 512 512">
-                                <path
-                                    d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z">
-                                </path>
-                            </svg>
+                    <btn class="icone_like">
+                        <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="heart" fill="black"
+                            class="heart_regular" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path
+                                d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z">
+                            </path>
+                        </svg>
 
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="heart"
-                                class="heart_filled" role="img" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 512 512">
-                                <path fill="url(#grad2)"
-                                    d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z">
-                                </path>
-                                <defs>
-                                    <linearGradient id="grad2" x1="0%" y1="0%" x2="0%" y2="100%">
-                                        <stop offset="0%" style="stop-color:#9356DC;stop-opacity:1" />
-                                        <stop offset="100%" style="stop-color:#FF79DA ;stop-opacity:1" />
-                                    </linearGradient>
-                                </defs>
-                            </svg>
-                        </btn>
-                    </div>
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="heart"
+                            class="heart_filled" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path fill="url(#grad2)"
+                                d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z">
+                            </path>
+                            <defs>
+                                <linearGradient id="grad2" x1="0%" y1="0%" x2="0%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#9356DC;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#FF79DA ;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </btn>
 
 
                 </div>
@@ -72,6 +68,9 @@
                             <div class="prix_element">
                                 <h3>25€</h3>
                             </div>
+                            <div class="green">
+                                <img class="logo_check" src="logo/check-circle-solid.svg" alt="check">
+                            </div>
 
 
                         </button>
@@ -83,6 +82,9 @@
                             <div class="prix_element">
                                 <h3>35€</h3>
                             </div>
+                            <div class="green">
+                                <img class="logo_check" src="logo/check-circle-solid.svg" alt="check">
+                            </div>
                         </button>
                         <button class="entree_element element_3">
                             <div class="titre_element">
@@ -92,9 +94,12 @@
                             <div class="prix_element">
                                 <h3>20€</h3>
                             </div>
+                            <div class="green">
+                                <img class="logo_check" src="logo/check-circle-solid.svg" alt="check">
+                            </div>
                         </button>
                     </div>
-                    <div class="entrees">
+                    <div class="plats">
                         <h3>PLATS</h3>
                         <hr />
                         <button class="plats_element  element_1">
@@ -104,6 +109,9 @@
                             </div>
                             <div class="prix_element">
                                 <h3>40€</h3>
+                            </div>
+                            <div class="green">
+                                <img class="logo_check" src="logo/check-circle-solid.svg" alt="check">
                             </div>
 
 
@@ -116,6 +124,9 @@
                             <div class="prix_element">
                                 <h3>35€</h3>
                             </div>
+                            <div class="green">
+                                <img class="logo_check" src="logo/check-circle-solid.svg" alt="check">
+                            </div>
                         </button>
                         <button class="plats_element element_3">
                             <div class="titre_element">
@@ -124,6 +135,9 @@
                             </div>
                             <div class="prix_element">
                                 <h3>44€</h3>
+                            </div>
+                            <div class="green">
+                                <img class="logo_check" src="logo/check-circle-solid.svg" alt="check">
                             </div>
                         </button>
                     </div>
@@ -138,6 +152,9 @@
                             <div class="prix_element">
                                 <h3>18€</h3>
                             </div>
+                            <div class="green">
+                                <img class="logo_check" src="logo/check-circle-solid.svg" alt="check">
+                            </div>
 
 
                         </button>
@@ -149,6 +166,9 @@
                             <div class="prix_element">
                                 <h3>22€</h3>
                             </div>
+                            <div class="green">
+                                <img class="logo_check" src="logo/check-circle-solid.svg" alt="check">
+                            </div>
                         </button>
                         <button class="desserts_element element_3">
                             <div class="titre_element">
@@ -157,6 +177,9 @@
                             </div>
                             <div class="prix_element">
                                 <h3>23€</h3>
+                            </div>
+                            <div class="green">
+                                <img class="logo_check" src="logo/check-circle-solid.svg" alt="check">
                             </div>
                         </button>
                     </div>

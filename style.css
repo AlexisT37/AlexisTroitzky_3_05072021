@@ -650,8 +650,8 @@ hr {
 .logo_check {
   width: 3rem;
   height: 3rem;
-  -webkit-animation: icon_rotation 3s 1s ease-in-out backwards infinite;
-          animation: icon_rotation 3s 1s ease-in-out backwards infinite;
+  -webkit-animation: icon_rotation 1.5s 1s ease-in-out backwards infinite;
+          animation: icon_rotation 1.5s 1s ease-in-out backwards infinite;
 }
 
 @-webkit-keyframes icon_rotation {
