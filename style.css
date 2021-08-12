@@ -29,7 +29,8 @@ header,
 #button_explore button,
 .images_icone_nouveau,
 .icone_like,
-.presentation {
+.presentation,
+.titre_element {
   position: relative;
 }
 
@@ -844,7 +845,6 @@ hr {
 }
 
 .titre_element {
-  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
