@@ -516,6 +516,7 @@ hr {
 	align-items: flex-start;
 	padding: 1rem;
 	background-color: $color-btn;
+	overflow-y: hidden;
 
 	& h3 {
 		font-size: 1.5rem !important;
@@ -542,7 +543,7 @@ hr {
 
 .logo_check {
 	@include icon_resize_heart;
-	animation: icon_rotation 1.5s 1s ease-in-out backwards infinite;
+	animation: icon_rotation 1.5s 1.3s ease-in-out;
 }
 
 @keyframes icon_rotation {
