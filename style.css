@@ -30,7 +30,10 @@ header,
 .images_icone_nouveau,
 .icone_like,
 .presentation,
-.titre_element {
+.titre_element,
+.entree_element,
+.plats_element,
+.desserts_element {
   position: relative;
 }
 
@@ -712,7 +715,6 @@ hr {
 .entree_element,
 .plats_element,
 .desserts_element {
-  position: relative;
   border-radius: 15px;
   width: 100%;
   display: -webkit-box;
