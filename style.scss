@@ -543,7 +543,7 @@ hr {
 
 .logo_check {
 	@include icon_resize_heart;
-	animation: icon_rotation 1.5s 1.3s ease-in-out;
+	animation: icon_rotation 1.5s 2s ease-in-out;
 }
 
 @keyframes icon_rotation {

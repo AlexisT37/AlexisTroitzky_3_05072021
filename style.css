@@ -697,8 +697,8 @@ hr {
 .logo_check {
   width: 3rem;
   height: 3rem;
-  -webkit-animation: icon_rotation 1.5s 1.3s ease-in-out;
-          animation: icon_rotation 1.5s 1.3s ease-in-out;
+  -webkit-animation: icon_rotation 1.5s 2s ease-in-out;
+          animation: icon_rotation 1.5s 2s ease-in-out;
 }
 
 @-webkit-keyframes icon_rotation {
