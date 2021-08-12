@@ -586,6 +586,16 @@ footer {
           align-items: flex-start;
 }
 
+.lien_contact {
+  text-decoration: none !important;
+  color: #FFFFFF !important;
+}
+
+.lien_contact:visited {
+  text-decoration: none !important;
+  color: #FFFFFF !important;
+}
+
 .menu {
   display: -webkit-box;
   display: -ms-flexbox;
