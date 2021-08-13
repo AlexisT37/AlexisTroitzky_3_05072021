@@ -447,8 +447,8 @@ header,
 
 .icon {
 		
-        width: 4rem;
-		height: 4rem;
+        width: 3rem;
+		height: 3rem;
 		overflow-y: hidden;
 
         &.heart {
@@ -461,7 +461,7 @@ header,
             &:hover {
 
                 & path {
-                    animation: animate-heart 1s ease-in-out both;
+                    animation: animate-heart 2s ease-in-out both;
                 }
             }
         }
@@ -478,19 +478,21 @@ header,
     0% {
         stroke-dashoffset: 0;
         fill: transparent;
+		opacity: 0;
     }
 
-    75% {
-        stroke-dashoffset: 1560;
-        fill: transparent;
-    }
+    // 75% {
+    //     stroke-dashoffset: 1560;
+    //     fill: transparent;
+    // }
 	
-    80% {
-        stroke-dashoffset: 1560;
-        fill: url(#grad1);
-    }
+    // 80% {
+    //     stroke-dashoffset: 1560;
+    //     fill: url(#grad1);
+    // }
 
     100% {
+		opacity: 1;
         stroke-dashoffset: 1560;
         fill: url(#grad2);
     }
