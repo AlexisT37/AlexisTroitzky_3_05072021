@@ -442,6 +442,64 @@ header,
 	@include icon_resize_heart;
 }
 
+
+// nouveau coeur DEBUT
+
+.icon {
+		
+        width: 4rem;
+		height: 4rem;
+		overflow-y: hidden;
+
+        &.heart {
+
+            & path {
+                stroke-dasharray: 1560;
+                stroke-dashoffset: 0;
+            }
+
+            &:hover {
+
+                & path {
+                    animation: animate-heart 1s ease-in-out both;
+                }
+            }
+        }
+
+        & path {
+            fill: transparent;
+            stroke-width: 10;
+            stroke: black;
+        }
+    }
+
+
+@keyframes animate-heart {
+    0% {
+        stroke-dashoffset: 0;
+        fill: transparent;
+    }
+
+    75% {
+        stroke-dashoffset: 1560;
+        fill: transparent;
+    }
+	
+    80% {
+        stroke-dashoffset: 1560;
+        fill: url(#grad1);
+    }
+
+    100% {
+        stroke-dashoffset: 1560;
+        fill: url(#grad2);
+    }
+
+}
+
+// nouveau coeur FIN
+
+
 .restaurants,
 .presentation {
 	background: $color-btn;
