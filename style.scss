@@ -512,6 +512,10 @@ footer {
 	color: $initial-color;
 	@include struct-col-space;
 	align-items: flex-start;
+
+	& h1 {
+		font-size: 1.5rem !important;
+	}
 }
 
 .lien_contact {
