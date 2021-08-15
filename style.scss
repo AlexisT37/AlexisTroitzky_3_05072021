@@ -1,5 +1,7 @@
 @import "Utils/mixins.scss";
 @import "Utils/variables.scss";
+@import "Utils/media_queries.scss";
+
 
 @font-face {
 	font-family: Roboto;
@@ -361,7 +363,8 @@ header,
 	margin-top: 0 !important;
 }
 
-.palette, .note {
+.palette,
+.note {
 	margin-right: 1rem;
 }
 
@@ -454,46 +457,46 @@ header,
 // nouveau coeur DEBUT
 
 .icon {
-		
-        width: 3rem;
-		height: 3rem;
-		overflow-y: hidden;
 
-        &.heart {
+	width: 3rem;
+	height: 3rem;
+	overflow-y: hidden;
 
-            & path {
-                stroke-dasharray: 1560;
-                stroke-dashoffset: 0;
-            }
+	&.heart {
 
-            &:hover {
+		& path {
+			stroke-dasharray: 1560;
+			stroke-dashoffset: 0;
+		}
 
-                & path {
-                    animation: animate-heart 1s ease-in-out both;
-                }
-            }
-        }
+		&:hover {
 
-        & path {
-            fill: transparent;
-            stroke-width: 10;
-            stroke: black;
-        }
-    }
+			& path {
+				animation: animate-heart 1s ease-in-out both;
+			}
+		}
+	}
+
+	& path {
+		fill: transparent;
+		stroke-width: 10;
+		stroke: black;
+	}
+}
 
 
 @keyframes animate-heart {
-    0% {
-        stroke-dashoffset: 0;
-        fill: transparent;
+	0% {
+		stroke-dashoffset: 0;
+		fill: transparent;
 		opacity: 0;
-    }
+	}
 
-    100% {
+	100% {
 		opacity: 1;
-        stroke-dashoffset: 1560;
-        fill: url(#grad2);
-    }
+		stroke-dashoffset: 1560;
+		fill: url(#grad2);
+	}
 
 }
 

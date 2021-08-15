@@ -471,7 +471,8 @@ header,
   margin-top: 0 !important;
 }
 
-.palette, .note {
+.palette,
+.note {
   margin-right: 1rem;
 }
 
