@@ -1,9 +1,3 @@
-@media only screen and (min-width: 300px) {
-  body {
-    color: red;
-  }
-}
-
 @font-face {
   font-family: Roboto;
   src: url("fonts/Roboto-Regular.ttf");
@@ -957,5 +951,24 @@ hr {
 .titre_element h3 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+}
+
+@media only screen and (min-width: 1024px) {
+  .button_commander {
+    max-width: 30rem !important;
+  }
+  footer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .carte_resto,
+  .button,
+  #button_explore {
+    max-width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 /*# sourceMappingURL=style.css.map */

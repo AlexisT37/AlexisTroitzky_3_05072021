@@ -738,3 +738,10 @@ hr {
 
 
 // Menu 1, 2, 3, 4 FIN
+
+
+// @include media-min($lg){
+// 	* {color: green;}
+// }
+
+@include media_desktop();

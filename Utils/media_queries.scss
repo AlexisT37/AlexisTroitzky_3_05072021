@@ -1,12 +1,38 @@
+@import "mixins.scss";
+@import "variables.scss";
 
-
- 
 // Using a variable
-// @include media-min($sm) { 
+// @include media-min($sm) {
 //     body {color:red}
 // }
- 
-// Custom value 
-@include media-min(300px) { 
-    body {color:red}
+
+// Custom value
+// @include media-min(300px) {
+//     body {color:blue}
+// }
+
+// @include media-min($md) {
+//     body {color:blue}
+// }
+
+@mixin media_desktop {
+    @include media-min($lg) {
+        .button_commander {
+            max-width: 30rem !important;
+        }
+
+        footer {
+            flex-direction: row;
+        }
+
+        .carte_resto,
+        .button,
+        #button_explore {
+            max-width: 40vw;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+
 }
