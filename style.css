@@ -26,7 +26,7 @@ body {
 
 .title,
 header,
-#button_explore button,
+#button_explore.button,
 .images_icone_nouveau,
 .icone_like,
 .presentation,
@@ -376,7 +376,7 @@ header,
   height: 1.5rem;
 }
 
-#button_explore button a {
+#button_explore.button a {
   text-decoration: none;
   color: #FFFFFF;
   font-size: 1.5rem;
@@ -691,6 +691,14 @@ hr {
   background-color: #f6f6f6;
 }
 
+.button {
+  overflow-y: hidden;
+}
+
+.prix_element {
+  padding: 1rem;
+}
+
 .entrees,
 .plats,
 .desserts {
@@ -710,6 +718,7 @@ hr {
   padding: 1rem;
   background-color: #f6f6f6;
   overflow-y: hidden;
+  padding-right: 2rem;
 }
 
 .entrees h3,

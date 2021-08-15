@@ -29,7 +29,7 @@ body {
 
 .title,
 header,
-#button_explore button,
+#button_explore.button,
 .images_icone_nouveau,
 .icone_like,
 .presentation,
@@ -282,7 +282,7 @@ header,
 	@include icon_resize;
 }
 
-#button_explore button a {
+#button_explore.button a {
 	text-decoration: none;
 	color: $initial-color;
 	font-size: 1.5rem;
@@ -561,6 +561,14 @@ hr {
 	background-color: $color-btn;
 }
 
+.button {
+	overflow-y: hidden;
+}
+
+.prix_element {
+	padding: 1rem;
+}
+
 .entrees,
 .plats,
 .desserts {
@@ -571,6 +579,7 @@ hr {
 	padding: 1rem;
 	background-color: $color-btn;
 	overflow-y: hidden;
+	padding-right: 2rem;
 
 	& h3 {
 		font-size: 1.5rem !important;
