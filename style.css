@@ -297,6 +297,12 @@ header,
   padding-bottom: 1rem;
 }
 
+.choix:hover,
+.composer:hover,
+.deguster:hover {
+  background-color: #e4d5f6;
+}
+
 .choix,
 .composer,
 .deguster {
@@ -723,6 +729,7 @@ hr {
   background-color: #f6f6f6;
   overflow-y: hidden;
   padding-right: 2rem;
+  text-overflow: ellipsis;
 }
 
 .entrees h3,
@@ -813,29 +820,24 @@ hr {
   margin-bottom: 1.5rem;
   padding-left: 1rem;
   z-index: 1;
-}
-
-.entree_element:active,
-.plats_element:active,
-.desserts_element:active {
-  padding-right: 0;
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
-.entree_element:active > .green,
-.plats_element:active > .green,
-.desserts_element:active > .green {
-  outline: none;
-  -webkit-animation: selection_plat_in 600ms ease-in-out both;
-          animation: selection_plat_in 600ms ease-in-out both;
+  text-overflow: ellipsis;
 }
 
 .entree_element:hover,
 .plats_element:hover,
 .desserts_element:hover {
-  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 10px;
-          box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 10px;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  text-overflow: ellipsis;
+}
+
+.entree_element:hover > .green,
+.plats_element:hover > .green,
+.desserts_element:hover > .green {
+  outline: none;
+  -webkit-animation: selection_plat_in 600ms ease-in-out both;
+          animation: selection_plat_in 600ms ease-in-out both;
 }
 
 @-webkit-keyframes selection_plat_in {
