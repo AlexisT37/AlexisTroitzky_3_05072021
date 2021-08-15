@@ -357,6 +357,10 @@ header,
 	margin-top: 0 !important;
 }
 
+.palette, .note {
+	margin-right: 1rem;
+}
+
 .main_titre_menu {
 	background-color: $color-btn !important;
 
@@ -461,7 +465,7 @@ header,
             &:hover {
 
                 & path {
-                    animation: animate-heart 2s ease-in-out both;
+                    animation: animate-heart 1s ease-in-out both;
                 }
             }
         }
@@ -480,16 +484,6 @@ header,
         fill: transparent;
 		opacity: 0;
     }
-
-    // 75% {
-    //     stroke-dashoffset: 1560;
-    //     fill: transparent;
-    // }
-	
-    // 80% {
-    //     stroke-dashoffset: 1560;
-    //     fill: url(#grad1);
-    // }
 
     100% {
 		opacity: 1;
