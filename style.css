@@ -1,3 +1,9 @@
+@media only screen and (min-width: 300px) {
+  body {
+    color: red;
+  }
+}
+
 @font-face {
   font-family: Roboto;
   src: url("fonts/Roboto-Regular.ttf");
