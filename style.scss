@@ -599,16 +599,25 @@ hr {
 	padding-right: 2rem;
 	overflow: hidden;
 	text-overflow: ellipsis;
+	width: auto;
 
 
 	& h3 {
 		font-size: 1.5rem !important;
 		font-weight: 100 !important;
 		margin-bottom: 0.5rem;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		width: auto;
 	}
 
 	& hr {
 		margin-bottom: 1rem;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		width: auto;
 	}
 }
 
@@ -663,7 +672,7 @@ hr {
 
 .fa-check-circle {
 	rotate: -90deg;
-	transition: rotate 1s ease-in-out;
+	transition: rotate 700ms ease-in-out;
 }
 
 .entree_element,
@@ -684,20 +693,20 @@ hr {
 	text-overflow: ellipsis;
 
 
-		&:hover {
-			padding-right: 0;
-			padding-top: 0;
-			padding-bottom: 0;
-			// text-overflow: ellipsis;
+	&:hover {
+		padding-right: 0;
+		padding-top: 0;
+		padding-bottom: 0;
+		// text-overflow: ellipsis;
 
-			&>.green {
-				outline: none;
-				width: 8rem;
+		&>.green {
+			outline: none;
+			width: 8rem;
 
-				&>.fa-check-circle {
-					rotate: 360deg;
-				}
+			&>.fa-check-circle {
+				rotate: 360deg;
 			}
+		}
 	}
 
 

@@ -738,6 +738,7 @@ hr {
   padding-right: 2rem;
   overflow: hidden;
   text-overflow: ellipsis;
+  width: auto;
 }
 
 .entrees h3,
@@ -746,12 +747,20 @@ hr {
   font-size: 1.5rem !important;
   font-weight: 100 !important;
   margin-bottom: 0.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: auto;
 }
 
 .entrees hr,
 .plats hr,
 .desserts hr {
   margin-bottom: 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: auto;
 }
 
 .fa-check-circle {
@@ -777,8 +786,8 @@ hr {
 
 .fa-check-circle {
   rotate: -90deg;
-  -webkit-transition: rotate 1s ease-in-out;
-  transition: rotate 1s ease-in-out;
+  -webkit-transition: rotate 700ms ease-in-out;
+  transition: rotate 700ms ease-in-out;
 }
 
 .entree_element,
