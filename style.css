@@ -801,6 +801,21 @@ hr {
   text-overflow: ellipsis;
 }
 
+.entree_element:hover,
+.plats_element:hover,
+.desserts_element:hover {
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.entree_element:hover > .green,
+.plats_element:hover > .green,
+.desserts_element:hover > .green {
+  outline: none;
+  width: 8rem;
+}
+
 .element_1 {
   -webkit-animation: appear 1000ms 200ms ease-in-out backwards;
           animation: appear 1000ms 200ms ease-in-out backwards;

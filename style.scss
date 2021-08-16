@@ -677,20 +677,21 @@ hr {
 	z-index: 1;
 	text-overflow: ellipsis;
 
-// 	&:hover {
-// 		padding-right: 0;
-// 		padding-top: 0;
-// 		padding-bottom: 0;
-// 		// text-overflow: ellipsis;
 
-// 		&>.green {
-// 			outline: none;
-// 			animation: selection_plat_in 600ms ease-in-out both;
-// 		}
+		&:hover {
+			padding-right: 0;
+			padding-top: 0;
+			padding-bottom: 0;
+			// text-overflow: ellipsis;
+
+			&>.green {
+				outline: none;
+				width: 8rem;
+			}
 	}
 
 
-// }
+}
 
 // @keyframes selection_plat_in {
 // 	0% {
