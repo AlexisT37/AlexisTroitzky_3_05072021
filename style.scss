@@ -578,6 +578,7 @@ hr {
 
 .prix_element {
 	padding: 1rem;
+	overflow: hidden;
 }
 
 .entrees,
@@ -591,6 +592,7 @@ hr {
 	background-color: $color-btn;
 	overflow-y: hidden;
 	padding-right: 2rem;
+	overflow: hidden;
 	text-overflow: ellipsis;
 
 
@@ -608,8 +610,10 @@ hr {
 // section animation verte pour choix menu DEBUT
 
 .green {
+	margin: 0;
+	padding: 0;
 	width: 7rem;
-	height: 10rem;
+	height: 100%;
 	background-color: $color-tertiary;
 	border-radius: 0 15px 15px 0;
 	margin-right: 0;
@@ -658,7 +662,7 @@ hr {
 		padding-right: 0;
 		padding-top: 0;
 		padding-bottom: 0;
-		text-overflow: ellipsis;
+		// text-overflow: ellipsis;
 
 		&>.green {
 			outline: none;
@@ -672,7 +676,7 @@ hr {
 @keyframes selection_plat_in {
 	0% {
 		transform-origin: center right;
-		transform: translateX(7rem);
+		transform: translateX(15rem);
 		z-index: -1;
 		position: relative;
 		opacity: 0;
@@ -687,6 +691,8 @@ hr {
 		opacity: 1;
 	}
 }
+
+// section animation verte pour choix menu FIN
 
 .element_1 {
 	animation: appear 1000ms 200ms ease-in-out backwards;
@@ -718,7 +724,7 @@ hr {
 	}
 }
 
-// section animation verte pour choix menu FIN
+
 
 .titre_element {
 	display: flex;
@@ -731,11 +737,13 @@ hr {
 		margin-bottom: 0.5rem;
 		font-size: 1.6rem;
 		font-weight: 600;
+		overflow: hidden;
 	}
 
 	& h3 {
 		margin-top: 0.5rem;
 		margin-bottom: 0.5rem;
+		overflow: hidden;
 	}
 }
 

@@ -708,6 +708,7 @@ hr {
 
 .prix_element {
   padding: 1rem;
+  overflow: hidden;
 }
 
 .entrees,
@@ -730,6 +731,7 @@ hr {
   background-color: #f6f6f6;
   overflow-y: hidden;
   padding-right: 2rem;
+  overflow: hidden;
   text-overflow: ellipsis;
 }
 
@@ -748,8 +750,10 @@ hr {
 }
 
 .green {
+  margin: 0;
+  padding: 0;
   width: 7rem;
-  height: 10rem;
+  height: 100%;
   background-color: #99E2D0;
   border-radius: 0 15px 15px 0;
   margin-right: 0;
@@ -830,7 +834,6 @@ hr {
   padding-right: 0;
   padding-top: 0;
   padding-bottom: 0;
-  text-overflow: ellipsis;
 }
 
 .entree_element:hover > .green,
@@ -845,8 +848,8 @@ hr {
   0% {
     -webkit-transform-origin: center right;
             transform-origin: center right;
-    -webkit-transform: translateX(7rem);
-            transform: translateX(7rem);
+    -webkit-transform: translateX(15rem);
+            transform: translateX(15rem);
     z-index: -1;
     position: relative;
     opacity: 0;
@@ -864,8 +867,8 @@ hr {
   0% {
     -webkit-transform-origin: center right;
             transform-origin: center right;
-    -webkit-transform: translateX(7rem);
-            transform: translateX(7rem);
+    -webkit-transform: translateX(15rem);
+            transform: translateX(15rem);
     z-index: -1;
     position: relative;
     opacity: 0;
@@ -946,11 +949,13 @@ hr {
   margin-bottom: 0.5rem;
   font-size: 1.6rem;
   font-weight: 600;
+  overflow: hidden;
 }
 
 .titre_element h3 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+  overflow: hidden;
 }
 
 @media only screen and (min-width: 1024px) {
