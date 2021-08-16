@@ -605,6 +605,8 @@ hr {
 	}
 }
 
+// section animation verte pour choix menu DEBUT
+
 .green {
 	width: 7rem;
 	height: 10rem;
@@ -716,6 +718,8 @@ hr {
 	}
 }
 
+// section animation verte pour choix menu FIN
+
 .titre_element {
 	display: flex;
 	flex-direction: column;
@@ -740,8 +744,6 @@ hr {
 // Menu 1, 2, 3, 4 FIN
 
 
-// @include media-min($lg){
-// 	* {color: green;}
-// }
+// media queries
 
 @include media_desktop();
