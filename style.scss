@@ -613,37 +613,54 @@ hr {
 
 // section animation verte pour choix menu DEBUT
 
+.fa-check-circle {
+	color: $initial-color;
+}
+
 .green {
-	margin: 0;
-	padding: 0;
-	width: 7rem;
-	height: 100%;
 	background-color: $color-tertiary;
-	border-radius: 0 15px 15px 0;
-	margin-right: 0;
-	z-index: -1;
-	opacity: 0;
-	position: absolute;
+	height: 100%;
 	@include div-center;
-}
+	// z-index: 0;
+	width: 0px;
+	content: "";
 
-.logo_check {
-	@include icon_resize_heart;
-	animation: icon_rotation 1.5s 2s ease-in-out;
-}
-
-@keyframes icon_rotation {
-	0% {
-		transform: rotate(90deg);
-	}
-
-
-
-	100% {
-
-		transform: rotate(360deg);
+	&:hover {
+		color: red;
 	}
 }
+
+// .green {
+// 	margin: 0;
+// 	padding: 0;
+// 	width: 7rem;
+// 	height: 100%;
+// 	background-color: $color-tertiary;
+// 	border-radius: 0 15px 15px 0;
+// 	margin-right: 0;
+// 	z-index: -1;
+// 	opacity: 0;
+// 	position: absolute;
+// 	@include div-center;
+// }
+
+// .logo_check {
+// 	@include icon_resize_heart;
+// 	animation: icon_rotation 1.5s 2s ease-in-out;
+// }
+
+// @keyframes icon_rotation {
+// 	0% {
+// 		transform: rotate(90deg);
+// 	}
+
+
+
+// 	100% {
+
+// 		transform: rotate(360deg);
+// 	}
+// }
 
 .entree_element,
 .plats_element,
@@ -662,39 +679,39 @@ hr {
 	z-index: 1;
 	text-overflow: ellipsis;
 
-	&:hover {
-		padding-right: 0;
-		padding-top: 0;
-		padding-bottom: 0;
-		// text-overflow: ellipsis;
+// 	&:hover {
+// 		padding-right: 0;
+// 		padding-top: 0;
+// 		padding-bottom: 0;
+// 		// text-overflow: ellipsis;
 
-		&>.green {
-			outline: none;
-			animation: selection_plat_in 600ms ease-in-out both;
-		}
+// 		&>.green {
+// 			outline: none;
+// 			animation: selection_plat_in 600ms ease-in-out both;
+// 		}
 	}
 
 
-}
+// }
 
-@keyframes selection_plat_in {
-	0% {
-		transform-origin: center right;
-		transform: translateX(15rem);
-		z-index: -1;
-		position: relative;
-		opacity: 0;
+// @keyframes selection_plat_in {
+// 	0% {
+// 		transform-origin: center right;
+// 		transform: translateX(15rem);
+// 		z-index: -1;
+// 		position: relative;
+// 		opacity: 0;
 
-	}
+// 	}
 
-	100% {
+// 	100% {
 
-		transform: translateX(0px);
-		z-index: 2;
-		position: relative;
-		opacity: 1;
-	}
-}
+// 		transform: translateX(0px);
+// 		z-index: 2;
+// 		position: relative;
+// 		opacity: 1;
+// 	}
+// }
 
 // section animation verte pour choix menu FIN
 
@@ -742,12 +759,14 @@ hr {
 		font-size: 1.6rem;
 		font-weight: 600;
 		overflow: hidden;
+		text-overflow: ellipsis;
 	}
 
 	& h3 {
 		margin-top: 0.5rem;
 		margin-bottom: 0.5rem;
 		overflow: hidden;
+		text-overflow: ellipsis;
 	}
 }
 
