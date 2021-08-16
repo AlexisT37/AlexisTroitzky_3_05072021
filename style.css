@@ -771,6 +771,14 @@ hr {
       -ms-flex-align: center;
           align-items: center;
   width: 0px;
+  -webkit-transition: width 600ms ease-in-out;
+  transition: width 600ms ease-in-out;
+}
+
+.fa-check-circle {
+  rotate: -90deg;
+  -webkit-transition: rotate 1s ease-in-out;
+  transition: rotate 1s ease-in-out;
 }
 
 .entree_element,
@@ -814,6 +822,12 @@ hr {
 .desserts_element:hover > .green {
   outline: none;
   width: 8rem;
+}
+
+.entree_element:hover > .green > .fa-check-circle,
+.plats_element:hover > .green > .fa-check-circle,
+.desserts_element:hover > .green > .fa-check-circle {
+  rotate: 360deg;
 }
 
 .element_1 {

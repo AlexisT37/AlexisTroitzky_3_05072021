@@ -626,6 +626,7 @@ hr {
 	width: 0px;
 	// content: "";
 	// display: none;
+	transition: width 600ms ease-in-out;
 }
 
 // .green {
@@ -660,6 +661,11 @@ hr {
 // 	}
 // }
 
+.fa-check-circle {
+	rotate: -90deg;
+	transition: rotate 1s ease-in-out;
+}
+
 .entree_element,
 .plats_element,
 .desserts_element {
@@ -687,6 +693,10 @@ hr {
 			&>.green {
 				outline: none;
 				width: 8rem;
+
+				&>.fa-check-circle {
+					rotate: 360deg;
+				}
 			}
 	}
 
