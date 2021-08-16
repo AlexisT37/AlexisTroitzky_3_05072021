@@ -446,6 +446,10 @@ header,
      object-position: 50% 50%;
 }
 
+.palette {
+  margin: auto !important;
+}
+
 .titre_lieu h2 {
   font-weight: 600;
   font-size: 1.9rem;
