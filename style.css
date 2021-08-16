@@ -713,6 +713,7 @@ hr {
 .prix_element {
   padding: 1rem;
   overflow: hidden;
+  margin-left: auto;
 }
 
 .entrees,
@@ -770,10 +771,6 @@ hr {
       -ms-flex-align: center;
           align-items: center;
   width: 0px;
-}
-
-.green:hover {
-  color: red;
 }
 
 .entree_element,

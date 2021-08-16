@@ -583,6 +583,7 @@ hr {
 .prix_element {
 	padding: 1rem;
 	overflow: hidden;
+	margin-left: auto;
 }
 
 .entrees,
@@ -624,10 +625,7 @@ hr {
 	// z-index: 0;
 	width: 0px;
 	// content: "";
-
-	&:hover {
-		color: red;
-	}
+	// display: none;
 }
 
 // .green {
