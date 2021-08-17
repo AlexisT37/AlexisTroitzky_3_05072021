@@ -820,7 +820,7 @@ hr {
 	display: none !important;
 }
 
-.contenu > * {
+.contenu>* {
 	@include reset_pad_marg;
 }
 
@@ -863,6 +863,19 @@ hr {
 .titre_e_p_d {
 	@include reset_pad_marg;
 	align-self: flex-start;
+	font-size: 1.6rem;
+	font-weight: 100;
+}
+
+
+.button_commander {
+
+	border-radius: 30px;
+}
+
+.rose_menu {
+	width: 50vw !important;
+	border-radius: 30px !important;
 }
 
 // MENU NOUVEAU FIN
