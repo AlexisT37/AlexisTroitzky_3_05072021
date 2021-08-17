@@ -471,8 +471,10 @@ header,
   text-decoration: none;
 }
 
-#main_titre_menu {
+.main_titre_menu {
   margin-top: 0 !important;
+  margin-left: 1rem !important;
+  margin-right: 1rem !important;
 }
 
 .palette,
