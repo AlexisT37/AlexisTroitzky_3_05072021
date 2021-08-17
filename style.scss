@@ -164,7 +164,7 @@ header,
 
 #button_explore,
 .button_commander {
-	height: 40px;
+	height: 40px !important;
 	overflow: hidden;
 	font-size: $font-average;
 	font-weight: bold;
@@ -819,10 +819,13 @@ hr {
 .content {
 	display: none !important;
 }
+
+.contenu > * {
+	@include reset_pad_marg;
+}
+
 .contenu {
 	// border: 1px solid red;
-	padding: 0;
-	margin: 0;
 	width: 100%;
 	z-index: 0;
 
@@ -847,6 +850,19 @@ hr {
 	height: 300px;
 	width: 100%;
 	position: relative;
+	@include struct-col-space;
+	justify-content: space-between;
+}
+
+.titre_principal_menu {
+	@include reset_pad_marg;
+	font-family: Shrikhand;
+	font-size: $font-title;
+}
+
+.titre_e_p_d {
+	@include reset_pad_marg;
+	align-self: flex-start;
 }
 
 // MENU NOUVEAU FIN

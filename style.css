@@ -214,7 +214,7 @@ header,
 
 #button_explore,
 .button_commander {
-  height: 40px;
+  height: 40px !important;
   overflow: hidden;
   font-size: 1.4rem;
   font-weight: bold;
@@ -929,9 +929,12 @@ hr {
   display: none !important;
 }
 
-.contenu {
+.contenu > * {
   padding: 0;
   margin: 0;
+}
+
+.contenu {
   width: 100%;
   z-index: 0;
 }
@@ -956,6 +959,36 @@ hr {
   height: 300px;
   width: 100%;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.titre_principal_menu {
+  padding: 0;
+  margin: 0;
+  font-family: Shrikhand;
+  font-size: 2rem;
+}
+
+.titre_e_p_d {
+  padding: 0;
+  margin: 0;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
 }
 
 @media only screen and (min-width: 1024px) {
