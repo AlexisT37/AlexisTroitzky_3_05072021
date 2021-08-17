@@ -367,7 +367,7 @@ header,
 	margin-top: 0 !important;
 	margin-left: 1rem !important;
 	margin-right: 1rem !important;
-	
+
 }
 
 .palette,
@@ -815,6 +815,39 @@ hr {
 
 
 // MENU NOUVEAU DEBUT
+
+.content {
+	display: none !important;
+}
+.contenu {
+	// border: 1px solid red;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	z-index: 0;
+
+	& img {
+		padding: 0;
+		margin: 0;
+		height: 25rem;
+		width: 100%;
+		position: relative;
+		object-fit: cover;
+		object-position: 50% 50%;
+		top: 4.5rem;
+
+	}
+}
+
+.menu_fond_gris {
+	z-index: 1;
+	background-color: $color-location;
+	// border: 1px solid red;
+	border-radius: 30px 30px 0 0;
+	height: 300px;
+	width: 100%;
+	position: relative;
+}
 
 // MENU NOUVEAU FIN
 

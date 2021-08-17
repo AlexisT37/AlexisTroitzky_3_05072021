@@ -925,6 +925,39 @@ hr {
   text-overflow: ellipsis;
 }
 
+.content {
+  display: none !important;
+}
+
+.contenu {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  z-index: 0;
+}
+
+.contenu img {
+  padding: 0;
+  margin: 0;
+  height: 25rem;
+  width: 100%;
+  position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50% 50%;
+     object-position: 50% 50%;
+  top: 4.5rem;
+}
+
+.menu_fond_gris {
+  z-index: 1;
+  background-color: #e9e9e9;
+  border-radius: 30px 30px 0 0;
+  height: 300px;
+  width: 100%;
+  position: relative;
+}
+
 @media only screen and (min-width: 1024px) {
   .button_commander {
     max-width: 30rem !important;
