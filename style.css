@@ -1124,6 +1124,7 @@ hr {
 
 /* INTERIEUR DU MENU DEBUT */
 .conteneur_E_P_D {
+  cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

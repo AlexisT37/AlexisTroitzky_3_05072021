@@ -990,6 +990,7 @@ hr {
 
 
 .conteneur_E_P_D {
+	cursor: pointer;
 	@include struct-col-space;
 	// border: 1px solid red;
 	width: 100%;
