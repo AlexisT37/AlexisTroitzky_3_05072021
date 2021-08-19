@@ -1042,6 +1042,45 @@ hr {
 
 /* INTERIEUR DU MENU DEBUT */
 
+// PARTIE ANIMATION VERTE DU MENU DEBUT
+
+.conteneur_E_P_D_niveau_1 {
+	border-radius: 15px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	border: none;
+	background-color: $initial-color;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+	margin-bottom: 1.5rem;
+	padding-left: 1rem;
+	z-index: 1;
+	text-overflow: ellipsis;
+
+
+	&:hover {
+		padding-right: 0;
+		padding-top: 0;
+		padding-bottom: 0;
+		// text-overflow: ellipsis;
+
+		&>.green {
+			outline: none;
+			width: 8rem;
+
+			&>.fa-check-circle {
+				rotate: 360deg;
+			}
+		}
+	}
+
+
+}
+
+// PARTIE ANIMATION VERTE DU MENU FIN
+
 // MENU NOUVEAU FIN
 
 
