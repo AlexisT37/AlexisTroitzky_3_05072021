@@ -1181,6 +1181,16 @@ hr {
   margin: 0;
 }
 
+.titre_food {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.description {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
 .conteneur_prix {
   padding: 0;
   margin: 0;

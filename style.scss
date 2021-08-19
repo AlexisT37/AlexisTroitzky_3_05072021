@@ -1023,10 +1023,22 @@ hr {
 }
 
 
+
+
 .titre_food,
 .description {
 	@include reset_pad_marg;
 
+}
+
+.titre_food {
+	font-size: 2rem;
+	font-weight: 600;
+}
+
+.description {
+	font-size: 1.5rem;
+	font-weight: 100;
 }
 
 .conteneur_prix {
