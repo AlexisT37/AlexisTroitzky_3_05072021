@@ -1020,7 +1020,7 @@ hr {
   margin-bottom: .5rem;
 }
 
-.titre_ligne_verte {
+.conteneur_titre_ligne_verte {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1045,7 +1045,7 @@ hr {
   border-radius: 30px;
 }
 
-.rose_menu {
+.bouton_rose_menu {
   width: 50vw !important;
   border-radius: 30px !important;
 }
