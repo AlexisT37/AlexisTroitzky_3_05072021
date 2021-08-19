@@ -861,6 +861,7 @@ hr {
 	@include struct_row_center;
 	justify-content: space-evenly;
 	margin-top: 2rem;
+	// height: 6rem;
 
 }
 
@@ -942,6 +943,14 @@ hr {
 	@include reset_pad_marg;
 
 	}
+}
+
+.conteneur_E_P_D {
+@include struct-col-space;
+}
+
+.conteneur_E_P_D_niveau_1 {
+	@include struct_row_center;
 }
 
 /* INTERIEUR DU MENU DEBUT */
