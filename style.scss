@@ -828,8 +828,10 @@ hr {
 	// border: 1px solid red;
 	width: 100%;
 	z-index: 0;
-	@include struct-col-space;
-
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	// align-self: center;
 	& img {
 		padding: 0;
 		margin: 0;
@@ -910,26 +912,30 @@ hr {
 
 .conteneur_E_P_D {
 	@include struct-col-space;
-	border: 1px solid red;
+	// border: 1px solid red;
 	width: 100%;
-	padding: 0 1rem 0 1rem;
+	// padding: 0 1rem 0 1rem;
+	// margin: 0 1rem 0 1rem;
+	margin: 1rem;
+	
 }
 
 .conteneur_E_P_D_niveau_1 {
 	@include struct_row_center;
 	justify-content: space-between;
-	border: 1px solid green;
+	// border: 1px solid green;
 	width: 100%;
 	border-radius: 1.5rem;
 	background-color: $initial-color;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 	// margin: 1rem 1rem 1rem 1rem;
+	margin: 0 1rem 0 1rem;
 
 
 }
 
 .conteneur_titre_et_description {
-	border: 1px solid fuchsia;
+	// border: 1px solid fuchsia;
 	padding: 1rem 1rem 1rem 1rem;
 
 }

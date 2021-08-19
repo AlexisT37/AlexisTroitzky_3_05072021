@@ -944,12 +944,9 @@ hr {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .contenu img {
@@ -1084,9 +1081,8 @@ hr {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 1px solid red;
   width: 100%;
-  padding: 0 1rem 0 1rem;
+  margin: 1rem;
 }
 
 .conteneur_E_P_D_niveau_1 {
@@ -1108,16 +1104,15 @@ hr {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  border: 1px solid green;
   width: 100%;
   border-radius: 1.5rem;
   background-color: #FFFFFF;
   -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 0 1rem 0 1rem;
 }
 
 .conteneur_titre_et_description {
-  border: 1px solid fuchsia;
   padding: 1rem 1rem 1rem 1rem;
 }
 
