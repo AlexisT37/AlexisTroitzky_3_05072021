@@ -657,6 +657,7 @@ hr {
 	// content: "";
 	// display: none;
 	transition: width 600ms ease-in-out;
+	z-index: 1;
 }
 
 // .green {
@@ -1053,8 +1054,11 @@ hr {
 	@include reset_pad_marg;
 	padding: 1rem 2rem 0.5rem 1rem;
 	align-self: flex-end;
-	position: absolute;
+	// position: absolute;
+	position: relative;
 	right: 0;
+	padding-right: 0;
+	z-index: 2;
 
 	& h2 {
 		@include reset_pad_marg;
@@ -1091,7 +1095,7 @@ hr {
 
 		&>.green {
 			outline: none;
-			width: 8rem;
+			width: 6rem;
 
 			&>.fa-check-circle {
 				rotate: 360deg;
@@ -1099,7 +1103,7 @@ hr {
 		}
 
 		&>.conteneur_prix {
-			right: 8rem;
+			// right: 8rem;
 			transition-delay: 1s;
 			transition-timing-function: ease-in-out;
 			

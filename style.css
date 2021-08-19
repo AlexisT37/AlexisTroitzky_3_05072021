@@ -790,6 +790,7 @@ hr {
   width: 0px;
   -webkit-transition: width 600ms ease-in-out;
   transition: width 600ms ease-in-out;
+  z-index: 1;
 }
 
 .fa-check-circle {
@@ -1201,8 +1202,10 @@ hr {
   padding: 1rem 2rem 0.5rem 1rem;
   -ms-flex-item-align: end;
       align-self: flex-end;
-  position: absolute;
+  position: relative;
   right: 0;
+  padding-right: 0;
+  z-index: 2;
 }
 
 .conteneur_prix h2 {
@@ -1230,7 +1233,7 @@ hr {
 
 .conteneur_E_P_D_niveau_1:hover > .green {
   outline: none;
-  width: 8rem;
+  width: 6rem;
 }
 
 .conteneur_E_P_D_niveau_1:hover > .green > .fa-check-circle {
@@ -1238,7 +1241,6 @@ hr {
 }
 
 .conteneur_E_P_D_niveau_1:hover > .conteneur_prix {
-  right: 8rem;
   -webkit-transition-delay: 1s;
           transition-delay: 1s;
   -webkit-transition-timing-function: ease-in-out;
