@@ -1034,8 +1034,8 @@ hr {
 .conteneur_coeur:hover > .deuxieme_coeur {
   display: block;
   color: transparent;
-  -webkit-animation: heart_fill 2s ease-in-out forwards;
-          animation: heart_fill 2s ease-in-out forwards;
+  -webkit-animation: heart_fill 800ms ease-in-out forwards;
+          animation: heart_fill 800ms ease-in-out forwards;
 }
 
 @-webkit-keyframes heart_fill {
