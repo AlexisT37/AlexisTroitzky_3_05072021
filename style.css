@@ -1015,6 +1015,7 @@ hr {
 .premier_coeur {
   opacity: 1;
   z-index: 1;
+  stroke: 1px;
 }
 
 .deuxieme_coeur {
@@ -1173,6 +1174,8 @@ hr {
 
 .conteneur_titre_et_description {
   padding: 1rem 1rem 1rem 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .titre_food,
@@ -1198,6 +1201,8 @@ hr {
   padding: 1rem 2rem 0.5rem 1rem;
   -ms-flex-item-align: end;
       align-self: flex-end;
+  position: absolute;
+  right: 0;
 }
 
 .conteneur_prix h2 {
@@ -1230,6 +1235,14 @@ hr {
 
 .conteneur_E_P_D_niveau_1:hover > .green > .fa-check-circle {
   rotate: 360deg;
+}
+
+.conteneur_E_P_D_niveau_1:hover > .conteneur_prix {
+  right: 8rem;
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
 }
 
 @media only screen and (min-width: 1024px) {

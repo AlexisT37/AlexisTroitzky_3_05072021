@@ -890,6 +890,7 @@ hr {
 .premier_coeur {
 	opacity: 1;
 	z-index: 1;
+	stroke: 1px;
 }
 
 .deuxieme_coeur {
@@ -899,6 +900,7 @@ hr {
 
 .conteneur_coeur {
 	animation: all 10ms ease-in-out;
+
 	&:hover {
 		&>.premier_coeur {
 			display: none;
@@ -908,7 +910,7 @@ hr {
 			// opacity: 1;
 			display: block;
 			color: transparent;
-			animation:  heart_fill 800ms ease-in-out forwards;
+			animation: heart_fill 800ms ease-in-out forwards;
 
 		}
 	}
@@ -1020,6 +1022,8 @@ hr {
 .conteneur_titre_et_description {
 	// border: 1px solid fuchsia;
 	padding: 1rem 1rem 1rem 1rem;
+	white-space: nowrap;
+	text-overflow: ellipsis;
 
 }
 
@@ -1034,12 +1038,14 @@ hr {
 
 .titre_food {
 	font-size: 2rem;
+	// font-size: 0.5rem;
 	font-weight: 600;
 }
 
 .description {
 	text-overflow: ellipsis;
 	font-size: 1.5rem;
+	// font-size: 0.5rem;
 	font-weight: 100;
 }
 
@@ -1047,6 +1053,8 @@ hr {
 	@include reset_pad_marg;
 	padding: 1rem 2rem 0.5rem 1rem;
 	align-self: flex-end;
+	position: absolute;
+	right: 0;
 
 	& h2 {
 		@include reset_pad_marg;
@@ -1088,6 +1096,13 @@ hr {
 			&>.fa-check-circle {
 				rotate: 360deg;
 			}
+		}
+
+		&>.conteneur_prix {
+			right: 8rem;
+			transition-delay: 1s;
+			transition-timing-function: ease-in-out;
+			
 		}
 	}
 
