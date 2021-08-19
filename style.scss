@@ -902,6 +902,50 @@ hr {
 	position: relative;
 }
 
+/* INTERIEUR DU MENU DEBUT */
+
+
+.conteneur_E_P_D {
+	border: 1px solid red;
+	width: 100%;
+	padding: 0 1rem 0 1rem;
+}
+
+.conteneur_E_P_D_niveau_1 {
+	border: 1px solid green;
+	width: 100%;
+	border-radius: 3rem;
+	background-color: $initial-color;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+}
+
+.conteneur_titre_et_description {
+	border: 1px solid fuchsia;
+	padding: 1rem 1rem 1rem 1rem;
+
+}
+
+
+.titre_food,
+.description {
+	@include reset_pad_marg;
+
+}
+
+.conteneur_prix {
+	@include reset_pad_marg;
+	padding: 1rem 1rem 1rem 1rem;
+
+	& h2 {
+	@include reset_pad_marg;
+
+	}
+}
+
+/* INTERIEUR DU MENU DEBUT */
+
 // MENU NOUVEAU FIN
 
 

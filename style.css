@@ -1057,6 +1057,45 @@ hr {
   position: relative;
 }
 
+/* INTERIEUR DU MENU DEBUT */
+.conteneur_E_P_D {
+  border: 1px solid red;
+  width: 100%;
+  padding: 0 1rem 0 1rem;
+}
+
+.conteneur_E_P_D_niveau_1 {
+  border: 1px solid green;
+  width: 100%;
+  border-radius: 3rem;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.conteneur_titre_et_description {
+  border: 1px solid fuchsia;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.titre_food,
+.description {
+  padding: 0;
+  margin: 0;
+}
+
+.conteneur_prix {
+  padding: 0;
+  margin: 0;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.conteneur_prix h2 {
+  padding: 0;
+  margin: 0;
+}
+
+/* INTERIEUR DU MENU DEBUT */
 @media only screen and (min-width: 1024px) {
   .button_commander {
     max-width: 30rem !important;
