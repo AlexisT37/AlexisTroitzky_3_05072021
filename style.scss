@@ -907,12 +907,15 @@ hr {
 
 
 .conteneur_E_P_D {
+	@include struct-col-space;
 	border: 1px solid red;
 	width: 100%;
 	padding: 0 1rem 0 1rem;
 }
 
 .conteneur_E_P_D_niveau_1 {
+	@include struct_row_center;
+	justify-content: space-between;
 	border: 1px solid green;
 	width: 100%;
 	border-radius: 1.5rem;
@@ -937,7 +940,8 @@ hr {
 
 .conteneur_prix {
 	@include reset_pad_marg;
-	padding: 1rem 1rem 1rem 1rem;
+	padding: 1rem 2rem 0.5rem 1rem;
+	align-self: flex-end;
 
 	& h2 {
 	@include reset_pad_marg;
@@ -945,13 +949,6 @@ hr {
 	}
 }
 
-.conteneur_E_P_D {
-@include struct-col-space;
-}
-
-.conteneur_E_P_D_niveau_1 {
-	@include struct_row_center;
-}
 
 /* INTERIEUR DU MENU DEBUT */
 
