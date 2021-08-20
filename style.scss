@@ -996,7 +996,7 @@ hr {
 .conteneur_E_P_D {
 	cursor: pointer;
 	@include struct-col-space;
-	// border: 1px solid red;
+	border: 1px solid red;
 	width: 100%;
 	// padding: 0 1rem 0 1rem;
 	// margin: 0 1rem 0 1rem;
@@ -1009,7 +1009,7 @@ hr {
 	@include struct_row_center;
 	text-align: left;
 	justify-content: space-between;
-	// border: 1px solid green;
+	border: 1px solid green;
 	width: 100%;
 	border-radius: 1.5rem;
 	background-color: $initial-color;
@@ -1021,7 +1021,7 @@ hr {
 }
 
 .conteneur_titre_et_description {
-	// border: 1px solid fuchsia;
+	border: 1px solid fuchsia;
 	padding: 1rem 1rem 1rem 1rem;
 	white-space: nowrap;
 	text-overflow: ellipsis;
@@ -1038,6 +1038,8 @@ hr {
 }
 
 .titre_food {
+	white-space: nowrap;
+	text-overflow: ellipsis;
 	font-size: 1.5rem;
 	// font-size: 0.5rem;
 	font-weight: 600;
@@ -1051,6 +1053,7 @@ hr {
 }
 
 .conteneur_prix {
+	border: 1px solid aqua;
 	@include reset_pad_marg;
 	padding: 1rem 2rem 0.5rem 1rem;
 	align-self: flex-end;
@@ -1059,9 +1062,11 @@ hr {
 	right: 0;
 	padding-right: 0;
 	z-index: 2;
+	margin-left: auto;
 
 	& h2 {
 		@include reset_pad_marg;
+		padding-right: 1rem;
 
 	}
 }
