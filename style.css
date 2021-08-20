@@ -1140,7 +1140,6 @@ hr {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 1px solid red;
   width: 100%;
   margin: 1rem;
   overflow-x: visible;
@@ -1166,7 +1165,6 @@ hr {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  border: 1px solid green;
   width: 100%;
   border-radius: 1.5rem;
   background-color: #FFFFFF;
@@ -1176,7 +1174,6 @@ hr {
 }
 
 .conteneur_titre_et_description {
-  border: 1px solid fuchsia;
   padding: 1rem 1rem 1rem 1rem;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -1202,7 +1199,6 @@ hr {
 }
 
 .conteneur_prix {
-  border: 1px solid aqua;
   padding: 0;
   margin: 0;
   padding: 1rem 2rem 0.5rem 1rem;
