@@ -781,55 +781,6 @@ hr {
   transition: rotate 700ms ease-in-out;
 }
 
-.entree_element,
-.plats_element,
-.desserts_element {
-  border-radius: 15px;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border: none;
-  background-color: #FFFFFF;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
-          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
-  margin-bottom: 1.5rem;
-  padding-left: 1rem;
-  z-index: 1;
-  text-overflow: ellipsis;
-}
-
-.entree_element:hover,
-.plats_element:hover,
-.desserts_element:hover {
-  padding-right: 0;
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
-.entree_element:hover > .green,
-.plats_element:hover > .green,
-.desserts_element:hover > .green {
-  outline: none;
-  width: 8rem;
-}
-
-.entree_element:hover > .green > .fa-check-circle,
-.plats_element:hover > .green > .fa-check-circle,
-.desserts_element:hover > .green > .fa-check-circle {
-  rotate: 360deg;
-}
-
 .element_1 {
   -webkit-animation: appear 1000ms 200ms ease-in-out backwards;
           animation: appear 1000ms 200ms ease-in-out backwards;
@@ -1005,52 +956,6 @@ hr {
 .deuxieme_coeur {
   display: none;
   z-index: 0;
-}
-
-.conteneur_coeur {
-  -webkit-animation: all 10ms ease-in-out;
-          animation: all 10ms ease-in-out;
-}
-
-.conteneur_coeur:hover > .premier_coeur {
-  display: none;
-}
-
-.conteneur_coeur:hover > .deuxieme_coeur {
-  display: block;
-  color: transparent;
-  -webkit-animation: heart_fill 800ms ease-in-out forwards;
-          animation: heart_fill 800ms ease-in-out forwards;
-}
-
-@-webkit-keyframes heart_fill {
-  0% {
-    background: -webkit-linear-gradient(#9d70d4, #f598da);
-    background-clip: border-box;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  100% {
-    background: -webkit-linear-gradient(#9356DC, #FF79DA);
-    background-clip: border-box;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-}
-
-@keyframes heart_fill {
-  0% {
-    background: -webkit-linear-gradient(#9d70d4, #f598da);
-    background-clip: border-box;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  100% {
-    background: -webkit-linear-gradient(#9356DC, #FF79DA);
-    background-clip: border-box;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
 }
 
 .titre_principal_menu {
