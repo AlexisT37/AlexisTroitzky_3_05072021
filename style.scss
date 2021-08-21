@@ -437,29 +437,29 @@ header,
 	padding-right: 1rem;
 }
 
-.icone_like {
+// .icone_like {
 
-	& .heart_regular {
-		position: absolute;
-		opacity: 1;
-		transition: opacity 150ms;
-	}
+// 	& .heart_regular {
+// 		position: absolute;
+// 		opacity: 1;
+// 		transition: opacity 150ms;
+// 	}
 
-	& .heart_filled {
-		opacity: 0;
-	}
+// 	& .heart_filled {
+// 		opacity: 0;
+// 	}
 
-	&:hover {
+// 	&:hover {
 
-		& .heart_regular {
-			opacity: 0;
-		}
+// 		& .heart_regular {
+// 			opacity: 0;
+// 		}
 
-		& .heart_filled {
-			opacity: 1;
-		}
-	}
-}
+// 		& .heart_filled {
+// 			opacity: 1;
+// 		}
+// 	}
+// }
 
 .heart_regular,
 .heart_filled {

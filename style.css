@@ -545,25 +545,6 @@ header,
   padding-right: 1rem;
 }
 
-.icone_like .heart_regular {
-  position: absolute;
-  opacity: 1;
-  -webkit-transition: opacity 150ms;
-  transition: opacity 150ms;
-}
-
-.icone_like .heart_filled {
-  opacity: 0;
-}
-
-.icone_like:hover .heart_regular {
-  opacity: 0;
-}
-
-.icone_like:hover .heart_filled {
-  opacity: 1;
-}
-
 .heart_regular,
 .heart_filled {
   width: 3rem;
