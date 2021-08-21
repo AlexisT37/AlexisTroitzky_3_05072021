@@ -551,54 +551,6 @@ header,
   height: 3rem;
 }
 
-.icon {
-  width: 3rem;
-  height: 3rem;
-  overflow-y: hidden;
-}
-
-.icon.heart path {
-  stroke-dasharray: 1560;
-  stroke-dashoffset: 0;
-}
-
-.icon.heart:hover path {
-  -webkit-animation: animate-heart 1s ease-in-out both;
-          animation: animate-heart 1s ease-in-out both;
-}
-
-.icon path {
-  fill: transparent;
-  stroke-width: 10;
-  stroke: black;
-}
-
-@-webkit-keyframes animate-heart {
-  0% {
-    stroke-dashoffset: 0;
-    fill: transparent;
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-    stroke-dashoffset: 1560;
-    fill: url(#grad2);
-  }
-}
-
-@keyframes animate-heart {
-  0% {
-    stroke-dashoffset: 0;
-    fill: transparent;
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-    stroke-dashoffset: 1560;
-    fill: url(#grad2);
-  }
-}
-
 .restaurants,
 .presentation {
   background: #f6f6f6;
@@ -945,17 +897,41 @@ hr {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   margin-top: 3rem;
+  position: relative;
 }
 
 .premier_coeur {
   opacity: 1;
-  z-index: 1;
   stroke: 1px;
+  color: black;
+  /* pour premier coeur, desinge la couleur du contour */
+  font-size: 4rem;
+  position: absolute;
 }
 
 .deuxieme_coeur {
-  display: none;
-  z-index: 0;
+  color: transparent;
+  background: -webkit-linear-gradient(#9d70d4, #f598da);
+  -webkit-background-clip: text;
+  color: transparent;
+  opacity: 0;
+  position: absolute;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+  font-size: 4rem;
+}
+
+.conteneur_coeur {
+  border: 2px solid fuchsia;
+}
+
+.conteneur_coeur:hover > .premier_coeur {
+  opacity: 0;
+}
+
+.conteneur_coeur:hover > .deuxieme_coeur {
+  opacity: 1;
+  left: 1rem;
 }
 
 .titre_principal_menu {
