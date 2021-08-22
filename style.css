@@ -904,10 +904,9 @@ hr {
 .premier_coeur {
   opacity: 1;
   color: black;
-  /* pour premier coeur, desinge la couleur du contour */
   font-size: 4rem;
   position: absolute;
-  right: 1vw;
+  left: 0;
 }
 
 .deuxieme_coeur {
@@ -920,11 +919,17 @@ hr {
   -webkit-transition: opacity 1s;
   transition: opacity 1s;
   font-size: 4rem;
-  right: 1vw;
+  left: 0;
 }
 
 .deuxieme_coeur:hover {
   opacity: 1;
+}
+
+.conteneur_coeur {
+  height: 4rem;
+  width: 4rem;
+  position: relative;
 }
 
 .titre_principal_menu {
