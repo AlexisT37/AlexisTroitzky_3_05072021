@@ -700,7 +700,7 @@ hr {
 // }
 
 .fa-check-circle {
-	rotate: -90deg;
+	transform: rotate(-90deg);
 	transition: rotate 700ms ease-in-out;
 }
 
@@ -886,66 +886,58 @@ hr {
 // coeur final DEBUT
 
 
-// .premier_coeur {
-// 	opacity: 1;
-// 	z-index: 1;
-// 	stroke: 1px;
-// }
-
-// .deuxieme_coeur {
-// 	display: none;
-// 	z-index: 0;
-// }
 
 
 .premier_coeur {
-    opacity: 1;
-    // z-index: 1; /* z-index de base */
-    // z-index: 0;
-    stroke: 1px;
-    color: black;
-    /* pour premier coeur, desinge la couleur du contour */
+	opacity: 1;
+	color: black;
 	font-size: 4rem;
 	position: absolute;
+	left: 0;
 
 }
 
 .deuxieme_coeur {
-    color: transparent;
-    background: -webkit-linear-gradient(#9d70d4, #f598da);
-    // background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    opacity: 0;
-    position: absolute;
-    // left: 1rem;
-    // display: none;
-    // z-index: 0;
-    transition: opacity 1s;
+	color: transparent;
+	background: -webkit-linear-gradient(#9d70d4, #f598da);
+	-webkit-background-clip: text;
+	color: transparent;
+	opacity: 0;
+	position: absolute;
+	transition: opacity 1s;
 	font-size: 4rem;
+	left: 0;
+
+
+	&:hover {
+		opacity: 1;
+	}
 }
 
 .conteneur_coeur {
-    border: 2px solid fuchsia;
-    // transform: color;
-
-    &:hover {
-        &>.premier_coeur {
-            // color: transparent;
-            // transition: all 1s ease-in-out both;
-            // transform:color;
-            opacity: 0;
-
-        }
-
-        &>.deuxieme_coeur {
-            // color: blue;
-            // position: absolute;
-            opacity: 1;
-            left: 1rem;
-        }
-    }
+	// border: 2px solid fuchsia;
+	height: 4rem;
+	width: 4rem;
+	position: relative // transform: color;
 }
+
+//     &:hover {
+//         &>.premier_coeur {
+//             // color: transparent;
+//             // transition: all 1s ease-in-out both;
+//             // transform:color;
+//             opacity: 0;
+
+//         }
+
+//         &>.deuxieme_coeur {
+//             // color: blue;
+//             // position: absolute;
+//             opacity: 1;
+//             left: 1rem;
+//         }
+//     }
+// }
 
 
 
@@ -1107,7 +1099,6 @@ hr {
 	z-index: 1;
 	text-overflow: ellipsis;
 
-
 	&:hover {
 		padding-right: 0;
 		padding-top: 0;
@@ -1118,14 +1109,14 @@ hr {
 			width: 6rem;
 
 			&>.fa-check-circle {
-				rotate: 360deg;
+				transform: rotate(360deg);
 			}
 		}
 
 		&>.conteneur_prix {
 			transition-delay: 1s;
 			transition-timing-function: ease-in-out;
-			
+
 		}
 	}
 

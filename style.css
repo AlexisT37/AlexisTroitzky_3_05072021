@@ -728,7 +728,8 @@ hr {
 }
 
 .fa-check-circle {
-  rotate: -90deg;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
   -webkit-transition: rotate 700ms ease-in-out;
   transition: rotate 700ms ease-in-out;
 }
@@ -902,11 +903,11 @@ hr {
 
 .premier_coeur {
   opacity: 1;
-  stroke: 1px;
   color: black;
   /* pour premier coeur, desinge la couleur du contour */
   font-size: 4rem;
   position: absolute;
+  right: 1vw;
 }
 
 .deuxieme_coeur {
@@ -919,19 +920,11 @@ hr {
   -webkit-transition: opacity 1s;
   transition: opacity 1s;
   font-size: 4rem;
+  right: 1vw;
 }
 
-.conteneur_coeur {
-  border: 2px solid fuchsia;
-}
-
-.conteneur_coeur:hover > .premier_coeur {
-  opacity: 0;
-}
-
-.conteneur_coeur:hover > .deuxieme_coeur {
+.deuxieme_coeur:hover {
   opacity: 1;
-  left: 1rem;
 }
 
 .titre_principal_menu {
@@ -1105,7 +1098,8 @@ hr {
 }
 
 .conteneur_E_P_D_niveau_1:hover > .green > .fa-check-circle {
-  rotate: 360deg;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 .conteneur_E_P_D_niveau_1:hover > .conteneur_prix {
