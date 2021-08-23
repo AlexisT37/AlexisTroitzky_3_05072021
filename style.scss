@@ -718,6 +718,7 @@ hr {
 .deuxieme_coeur {
 	color: transparent;
 	background: -webkit-linear-gradient(#9d70d4, #f598da);
+	background-clip: text;
 	-webkit-background-clip: text;
 	color: transparent;
 	opacity: 0;

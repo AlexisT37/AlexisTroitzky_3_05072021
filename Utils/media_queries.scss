@@ -28,7 +28,7 @@
         .carte_resto,
         .button,
         #button_explore {
-            max-width: 40vw;
+            max-width: 30vw;
             margin-left: auto;
             margin-right: auto;
         }
@@ -36,7 +36,29 @@
 }
 
 @mixin media_tablet {
-    @include media-min($md){
-        
+    @include media-both($xs, $lg) {
+        #restaurants {
+            padding-bottom: 5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+
+            & .carte_resto {
+                margin-left: 1rem !important;
+                margin-right: 1rem !important;
+
+            }
+
+            & h2 {
+                margin-right: 1rem !important;
+                padding-right: 2rem !important;
+            }
+        }
+
+        .titre_accueil_restaurants {
+            padding: 1rem;
+            margin: 1rem;
+        }
     }
 }
