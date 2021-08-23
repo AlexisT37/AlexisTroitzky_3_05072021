@@ -1135,6 +1135,12 @@ hr {
         -ms-flex-pack: start !important;
             justify-content: start !important;
   }
+  .conteneur_E_P_D_niveau_1 {
+    max-width: 39rem;
+    -ms-flex-item-align: start;
+        -ms-grid-row-align: start;
+        align-self: start;
+  }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 1024px) {
