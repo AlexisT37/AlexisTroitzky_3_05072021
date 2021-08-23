@@ -728,9 +728,12 @@ hr {
 }
 
 .fa-check-circle {
-  rotate: -90deg;
-  -webkit-transition: rotate 700ms ease-in-out;
-  transition: rotate 700ms ease-in-out;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  -webkit-transition: -webkit-transform 700ms ease-in-out;
+  transition: -webkit-transform 700ms ease-in-out;
+  transition: transform 700ms ease-in-out;
+  transition: transform 700ms ease-in-out, -webkit-transform 700ms ease-in-out;
 }
 
 .conteneur_E_P_D_niveau_1 {
@@ -756,7 +759,8 @@ hr {
 }
 
 .conteneur_E_P_D_niveau_1:hover > .green > .fa-check-circle {
-  rotate: 360deg;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 .conteneur_E_P_D_niveau_1:hover > .conteneur_prix {

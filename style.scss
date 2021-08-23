@@ -583,9 +583,9 @@ hr {
 }
 
 .fa-check-circle {
-	// transform: rotate(-90deg);
-	rotate: -90deg;
-	transition: rotate 700ms ease-in-out;
+	transform: rotate(-90deg);
+	// rotate: -90deg;
+	transition: transform 700ms ease-in-out;
 }
 
 
@@ -608,9 +608,9 @@ hr {
 			width: 6rem;
 
 			&>.fa-check-circle {
+				transform: rotate(360deg);
 				// transform: rotate(360deg);
-				// transform: rotate(360deg);
-				rotate: 360deg;
+				// rotate: 360deg;
 			}
 		}
 
@@ -755,9 +755,15 @@ hr {
 .deuxieme_coeur {
 	color: transparent;
 	background: -webkit-linear-gradient(#9d70d4, #f598da);
+	// background-clip: content-box;
+	// background-clip: text;
+	// -webkit-background-clip: text;
+	// color: transparent;
+
 	background-clip: text;
 	-webkit-background-clip: text;
 	color: transparent;
+
 	opacity: 0;
 	position: absolute;
 	transition: opacity 300ms;
