@@ -1130,11 +1130,10 @@ hr {
     margin-left: auto;
     margin-right: auto;
   }
-  .conteneur_E_P_D_niveau_1 {
-    max-width: 40vw;
-    -ms-flex-item-align: start;
-        -ms-grid-row-align: start;
-        align-self: start;
+  .conteneur_titre_coeur {
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: start !important;
   }
 }
 
