@@ -437,84 +437,11 @@ header,
 	padding-right: 1rem;
 }
 
-// .icone_like {
-
-// 	& .heart_regular {
-// 		position: absolute;
-// 		opacity: 1;
-// 		transition: opacity 150ms;
-// 	}
-
-// 	& .heart_filled {
-// 		opacity: 0;
-// 	}
-
-// 	&:hover {
-
-// 		& .heart_regular {
-// 			opacity: 0;
-// 		}
-
-// 		& .heart_filled {
-// 			opacity: 1;
-// 		}
-// 	}
-// }
 
 .heart_regular,
 .heart_filled {
 	@include icon_resize_heart;
 }
-
-
-// nouveau coeur DEBUT
-
-// .icon {
-
-// 	width: 3rem;
-// 	height: 3rem;
-// 	overflow-y: hidden;
-
-// 	&.heart {
-
-// 		& path {
-// 			stroke-dasharray: 1560;
-// 			stroke-dashoffset: 0;
-// 		}
-
-// 		&:hover {
-
-// 			& path {
-// 				animation: animate-heart 1s ease-in-out both;
-// 			}
-// 		}
-// 	}
-
-// 	& path {
-// 		fill: transparent;
-// 		stroke-width: 10;
-// 		stroke: black;
-// 	}
-// }
-
-
-// @keyframes animate-heart {
-// 	0% {
-// 		stroke-dashoffset: 0;
-// 		fill: transparent;
-// 		opacity: 0;
-// 	}
-
-// 	100% {
-// 		opacity: 1;
-// 		stroke-dashoffset: 1560;
-// 		fill: url(#grad2);
-// 	}
-
-// }
-
-// nouveau coeur FIN
-
 
 .restaurants,
 .presentation {
@@ -597,21 +524,12 @@ hr {
 }
 
 
-// #entrees {
-// 	margin-left: 1rem !important;
-// 	margin-right: 1rem !important;
-// }
 
 .categories_food {
 	width: auto;
 	padding: 1rem;
 	margin: 1rem;
 }
-
-// #desserts {
-// 	margin-left: 1rem !important;
-// 	margin-right: 1rem !important;
-// }
 
 
 .entrees,
@@ -659,106 +577,16 @@ hr {
 	background-color: $color-tertiary;
 	height: 100%;
 	@include div-center;
-	// z-index: 0;
 	width: 0px;
-	// content: "";
-	// display: none;
 	transition: width 600ms ease-in-out;
 	z-index: 1;
 }
-
-// .green {
-// 	margin: 0;
-// 	padding: 0;
-// 	width: 7rem;
-// 	height: 100%;
-// 	background-color: $color-tertiary;
-// 	border-radius: 0 15px 15px 0;
-// 	margin-right: 0;
-// 	z-index: -1;
-// 	opacity: 0;
-// 	position: absolute;
-// 	@include div-center;
-// }
-
-// .logo_check {
-// 	@include icon_resize_heart;
-// 	animation: icon_rotation 1.5s 2s ease-in-out;
-// }
-
-// @keyframes icon_rotation {
-// 	0% {
-// 		transform: rotate(90deg);
-// 	}
-
-
-
-// 	100% {
-
-// 		transform: rotate(360deg);
-// 	}
-// }
 
 .fa-check-circle {
 	transform: rotate(-90deg);
 	transition: rotate 700ms ease-in-out;
 }
 
-// .entree_element,
-// .plats_element,
-// .desserts_element {
-// 	border-radius: 15px;
-// 	width: 100%;
-// 	display: flex;
-// 	flex-direction: row;
-// 	justify-content: space-between;
-// 	align-items: center;
-// 	border: none;
-// 	background-color: $initial-color;
-// 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
-// 	margin-bottom: 1.5rem;
-// 	padding-left: 1rem;
-// 	z-index: 1;
-// 	text-overflow: ellipsis;
-
-
-// 	&:hover {
-// 		padding-right: 0;
-// 		padding-top: 0;
-// 		padding-bottom: 0;
-// 		// text-overflow: ellipsis;
-
-// 		&>.green {
-// 			outline: none;
-// 			width: 8rem;
-
-// 			&>.fa-check-circle {
-// 				rotate: 360deg;
-// 			}
-// 		}
-// 	}
-
-
-// }
-
-// @keyframes selection_plat_in {
-// 	0% {
-// 		transform-origin: center right;
-// 		transform: translateX(15rem);
-// 		z-index: -1;
-// 		position: relative;
-// 		opacity: 0;
-
-// 	}
-
-// 	100% {
-
-// 		transform: translateX(0px);
-// 		z-index: 2;
-// 		position: relative;
-// 		opacity: 1;
-// 	}
-// }
 
 // section animation verte pour choix menu FIN
 
@@ -828,23 +656,18 @@ hr {
 	display: none !important;
 }
 
-// .contenu {
-// 	display: none;
-// }
 
 .contenu>* {
 	@include reset_pad_marg;
 }
 
 .contenu {
-	// border: 1px solid red;
 	width: 100%;
 	z-index: 0;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 
-	// align-self: center;
 	& img {
 		padding: 0;
 		margin: 0;
@@ -853,7 +676,6 @@ hr {
 		position: relative;
 		object-fit: cover;
 		object-position: 50% 50%;
-		// top: 4.5rem;
 
 	}
 }
@@ -861,7 +683,6 @@ hr {
 .menu_fond_gris {
 	z-index: 1;
 	background-color: $color-location;
-	// border: 1px solid red;
 	border-radius: 30px 30px 0 0;
 	height: 100%;
 	width: auto;
@@ -885,9 +706,6 @@ hr {
 
 // coeur final DEBUT
 
-
-
-
 .premier_coeur {
 	opacity: 1;
 	color: black;
@@ -904,7 +722,7 @@ hr {
 	color: transparent;
 	opacity: 0;
 	position: absolute;
-	transition: opacity 1s;
+	transition: opacity 300ms;
 	font-size: 4rem;
 	left: 0;
 
@@ -912,69 +730,15 @@ hr {
 	&:hover {
 		opacity: 1;
 	}
+
+
 }
 
 .conteneur_coeur {
-	// border: 2px solid fuchsia;
 	height: 4rem;
 	width: 4rem;
 	position: relative // transform: color;
 }
-
-//     &:hover {
-//         &>.premier_coeur {
-//             // color: transparent;
-//             // transition: all 1s ease-in-out both;
-//             // transform:color;
-//             opacity: 0;
-
-//         }
-
-//         &>.deuxieme_coeur {
-//             // color: blue;
-//             // position: absolute;
-//             opacity: 1;
-//             left: 1rem;
-//         }
-//     }
-// }
-
-
-
-// .conteneur_coeur {
-// 	animation: all 10ms ease-in-out;
-
-// 	&:hover {
-// 		&>.premier_coeur {
-// 			display: none;
-// 		}
-
-// 		&>.deuxieme_coeur {
-// 			display: block;
-// 			color: transparent;
-// 			animation: heart_fill 800ms ease-in-out forwards;
-
-// 		}
-// 	}
-// }
-
-// @keyframes heart_fill {
-// 	0% {
-// 		background: -webkit-linear-gradient(#9d70d4, #f598da);
-// 		background-clip: border-box;
-// 		-webkit-background-clip: text;
-// 		-webkit-text-fill-color: transparent;
-// 	}
-
-
-// 	100% {
-// 		background: -webkit-linear-gradient($color-primary, $color-secondary);
-// 		background-clip: border-box;
-// 		-webkit-background-clip: text;
-// 		-webkit-text-fill-color: transparent;
-// 	}
-
-// }
 
 
 // coeur final FIN
@@ -1086,7 +850,7 @@ hr {
 }
 
 
-/* INTERIEUR DU MENU DEBUT */
+/* INTERIEUR DU MENU FIN */
 
 // PARTIE ANIMATION VERTE DU MENU DEBUT
 
@@ -1125,24 +889,10 @@ hr {
 
 // PARTIE ANIMATION VERTE DU MENU FIN
 
-// .double_fond_gris {
-// 	position: absolute;
-// 	background-color: $color-location;
-// 	z-index: 3;	position: absolute;
-//     background-color: #e9e9e9;
-//     width: 98.33%;
-//     height: 6rem;
-//     z-index: 3;
-//     top: 120rem;
-//     left: 8px;
-// }
-
-
-
-
 // MENU NOUVEAU FIN
 
 
 // media queries
 
 @include media_desktop();
+@include media_tablet();

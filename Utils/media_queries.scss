@@ -33,6 +33,10 @@
             margin-right: auto;
         }
     }
+}
 
-
+@mixin media_tablet {
+    @include media-min($md){
+        
+    }
 }

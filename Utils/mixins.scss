@@ -67,11 +67,12 @@
 
 @mixin media-max($size) {
 	@media only screen and (max-width: $size) {
-		.entrees {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-        }
+		@content;
+	}
+}
+
+@mixin media-both($sizemin, $sizemax) {
+	@media only screen and (min-width: $sizemin) and (max-width: $sizemax) {
+		@content;
 	}
 }
