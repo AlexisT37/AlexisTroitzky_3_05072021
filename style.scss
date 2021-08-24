@@ -902,3 +902,9 @@ hr {
 
 @include media_desktop();
 @include media_tablet();
+
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
+    .green {
+        height: 53px;
+    }
+}
