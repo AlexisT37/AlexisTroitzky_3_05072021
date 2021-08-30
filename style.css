@@ -600,6 +600,13 @@ footer h1 {
   color: #FFFFFF !important;
 }
 
+.lien_resto {
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  display: contents;
+}
+
 .menu {
   display: -webkit-box;
   display: -ms-flexbox;

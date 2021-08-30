@@ -483,6 +483,12 @@ footer {
 
 // Menu 1, 2, 3, 4 DEBUT
 
+.lien_resto {
+	max-width: max-content;
+	display: contents;
+
+}
+
 .menu {
 	display: flex;
 	flex-direction: column;
@@ -908,7 +914,7 @@ hr {
 @include media_tablet();
 
 @media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
-    .green {
-        height: 53px;
-    }
+	.green {
+		height: 53px;
+	}
 }
