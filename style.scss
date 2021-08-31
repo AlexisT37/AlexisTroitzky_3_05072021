@@ -820,6 +820,25 @@ hr {
 }
 
 
+.fa-heart {
+	
+	font-size: 3rem;
+	display: flex !important;
+	height: 3rem;
+	align-items: center;
+	color: black !important;
+	text-underline-position: under;
+
+	&:hover {
+		font-weight: bold;
+		background: -webkit-linear-gradient($color-primary, $color-secondary);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		animation: test 3s forwards;
+	}
+
+}
+
 
 @keyframes test {
 	from {
