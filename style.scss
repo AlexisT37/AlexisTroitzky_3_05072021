@@ -759,39 +759,70 @@ hr {
 
 // coeur final DEBUT
 
-.premier_coeur {
-	opacity: 1;
-	color: black;
-	font-size: 4rem;
-	position: absolute;
-	left: 0;
+// .premier_coeur {
+// 	opacity: 1;
+// 	color: black;
+// 	font-size: 4rem;
+// 	position: absolute;
+// 	left: 0;
 
-}
+// }
 
-.deuxieme_coeur {
-	color: transparent;
-	background: -webkit-linear-gradient(#9d70d4, #f598da);
-	-webkit-background-clip: text;
-	color: transparent;
+// .deuxieme_coeur {
+// 	color: transparent;
+// 	background: -webkit-linear-gradient(#9d70d4, #f598da);
+// 	-webkit-background-clip: text;
+// 	color: transparent;
 
-	opacity: 0;
-	position: absolute;
-	transition: opacity 300ms;
-	font-size: 4rem;
-	left: 0;
+// 	opacity: 0;
+// 	position: absolute;
+// 	transition: opacity 300ms;
+// 	font-size: 4rem;
+// 	left: 0;
 
+
+// 	&:hover {
+// 		opacity: 1;
+// 	}
+
+
+// }
+
+// .conteneur_coeur {
+// 	height: 4rem;
+// 	width: 4rem;
+// 	position: relative // transform: color;
+// }
+
+
+.conteneur_coeur i {
+
+	font-size: 3rem;
+	display: flex !important;
+	height: 3rem;
+	align-items: center;
 
 	&:hover {
-		opacity: 1;
+		font-weight: bold;
+		background: -webkit-linear-gradient($color-primary, $color-secondary);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		animation: test 3s forwards;
 	}
-
-
 }
 
-.conteneur_coeur {
-	height: 4rem;
-	width: 4rem;
-	position: relative // transform: color;
+
+
+@keyframes test {
+	from {
+		background-position-y: 2.8rem;
+
+	}
+
+	to {
+
+		background-position-y: -2.8rem;
+	}
 }
 
 

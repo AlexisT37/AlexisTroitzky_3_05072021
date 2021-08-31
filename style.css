@@ -952,35 +952,42 @@ hr {
   position: relative;
 }
 
-.premier_coeur {
-  opacity: 1;
-  color: black;
-  font-size: 4rem;
-  position: absolute;
-  left: 0;
+.conteneur_coeur i {
+  font-size: 3rem;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  height: 3rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.deuxieme_coeur {
-  color: transparent;
-  background: -webkit-linear-gradient(#9d70d4, #f598da);
+.conteneur_coeur i:hover {
+  font-weight: bold;
+  background: -webkit-linear-gradient(#9356DC, #FF79DA);
   -webkit-background-clip: text;
-  color: transparent;
-  opacity: 0;
-  position: absolute;
-  -webkit-transition: opacity 300ms;
-  transition: opacity 300ms;
-  font-size: 4rem;
-  left: 0;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: test 3s forwards;
+          animation: test 3s forwards;
 }
 
-.deuxieme_coeur:hover {
-  opacity: 1;
+@-webkit-keyframes test {
+  from {
+    background-position-y: 2.8rem;
+  }
+  to {
+    background-position-y: -2.8rem;
+  }
 }
 
-.conteneur_coeur {
-  height: 4rem;
-  width: 4rem;
-  position: relative;
+@keyframes test {
+  from {
+    background-position-y: 2.8rem;
+  }
+  to {
+    background-position-y: -2.8rem;
+  }
 }
 
 .titre_principal_menu {
