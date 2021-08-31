@@ -1162,33 +1162,30 @@ hr {
   }
 }
 
-.titre_accueil_restaurants {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.titre_accueil_restaurants h2 {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-}
-
-.restaurants {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: initial;
-  -webkit-box-direction: initial;
-      -ms-flex-direction: initial;
-          flex-direction: initial;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
 @media only screen and (min-width: 480px) and (max-width: 1024px) {
+  .titre_accueil_restaurants {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .titre_accueil_restaurants h2 {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .restaurants {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: initial;
+    -webkit-box-direction: initial;
+        -ms-flex-direction: initial;
+            flex-direction: initial;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
   #restaurants {
     padding-bottom: 5rem;
     display: -webkit-box;
