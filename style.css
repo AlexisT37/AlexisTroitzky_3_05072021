@@ -963,7 +963,7 @@ hr {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: black;
+  color: black !important;
 }
 
 .conteneur_coeur i:hover {
