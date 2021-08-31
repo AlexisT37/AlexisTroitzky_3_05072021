@@ -5,7 +5,6 @@
 
 @font-face {
 	font-family: Roboto;
-	// src: url('fonts/Roboto-Regular.ttf');
 	@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap');
 	font-weight: normal;
 	font-style: normal;
@@ -13,7 +12,6 @@
 
 @font-face {
 	font-family: Shrikhand;
-	// src: url('fonts/Shrikhand-Regular.ttf');
 	@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 	font-weight: normal;
 	font-style: normal;
@@ -45,11 +43,6 @@ header,
 	position: relative;
 }
 
-
-
-// .title {
-// 	width: auto;
-// }
 
 header h1 {
 	font-family: Shrikhand;
@@ -144,27 +137,6 @@ header,
 
 // spinner FIN
 
-// header DEBUT
-
-#logo_omyfood_header {
-	width: 30rem;
-	height: 3.25rem;
-	align-self: center;
-	padding-bottom: 1rem;
-}
-
-.title_resto {
-	@include div-center;
-
-	& a img {
-		width: 3rem;
-		height: 3rem;
-	}
-
-	padding-bottom: 1rem;
-}
-
-// header FIN
 
 .presentation>h1,
 .fonctionnement>h2 {
@@ -495,14 +467,6 @@ header,
 }
 
 
-
-
-
-// .heart_regular,
-// .heart_filled {
-// 	@include icon_resize_heart;
-// }
-
 .restaurants,
 .presentation {
 	background: $color-btn;
@@ -807,42 +771,6 @@ hr {
 
 }
 
-// coeur final DEBUT
-
-// .premier_coeur {
-// 	opacity: 1;
-// 	color: black;
-// 	font-size: 4rem;
-// 	position: absolute;
-// 	left: 0;
-
-// }
-
-// .deuxieme_coeur {
-// 	color: transparent;
-// 	background: -webkit-linear-gradient(#9d70d4, #f598da);
-// 	-webkit-background-clip: text;
-// 	color: transparent;
-
-// 	opacity: 0;
-// 	position: absolute;
-// 	transition: opacity 300ms;
-// 	font-size: 4rem;
-// 	left: 0;
-
-
-// 	&:hover {
-// 		opacity: 1;
-// 	}
-
-
-// }
-
-// .conteneur_coeur {
-// 	height: 4rem;
-// 	width: 4rem;
-// 	position: relative // transform: color;
-// }
 
 
 .conteneur_coeur i {
@@ -1007,13 +935,6 @@ hr {
 
 
 /* INTERIEUR DU MENU FIN */
-
-// PARTIE ANIMATION VERTE DU MENU DEBUT
-
-
-// PARTIE ANIMATION VERTE DU MENU FIN
-
-// MENU NOUVEAU FIN
 
 
 // media queries

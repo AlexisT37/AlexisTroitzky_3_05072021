@@ -177,33 +177,6 @@ header,
   }
 }
 
-#logo_omyfood_header {
-  width: 30rem;
-  height: 3.25rem;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  padding-bottom: 1rem;
-}
-
-.title_resto {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-bottom: 1rem;
-}
-
-.title_resto a img {
-  width: 3rem;
-  height: 3rem;
-}
-
 .presentation > h1,
 .fonctionnement > h2 {
   font-size: 2rem;
