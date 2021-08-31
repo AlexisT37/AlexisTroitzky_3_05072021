@@ -57,6 +57,15 @@ header h1 {
 	overflow-x: initial !important;
 }
 
+footer h3 {
+	font-family: Shrikhand;
+	font-size: 2rem;
+	font-weight: 800;
+	width: auto;
+	overflow-x: initial !important;
+	color: $initial-color;
+}
+
 header,
 .presentation {
 	@include div-center;
