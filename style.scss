@@ -5,14 +5,16 @@
 
 @font-face {
 	font-family: Roboto;
-	src: url('fonts/Roboto-Regular.ttf');
+	// src: url('fonts/Roboto-Regular.ttf');
+	@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: Shrikhand;
-	src: url('fonts/Shrikhand-Regular.ttf');
+	// src: url('fonts/Shrikhand-Regular.ttf');
+	@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 	font-weight: normal;
 	font-style: normal;
 }
