@@ -45,6 +45,24 @@
 }
 
 @mixin media_tablet {
+
+    .titre_accueil_restaurants {
+        display: flex;
+
+        & h2 {
+            align-self: center;
+        }
+    }
+
+
+
+    .restaurants {
+        display: flex;
+        flex-direction: initial;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
     @include media-both($xs, $lg) {
         #restaurants {
             padding-bottom: 5rem;
