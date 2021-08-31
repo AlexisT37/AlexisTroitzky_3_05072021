@@ -1,7 +1,5 @@
-User-agent: Googlebot
-Disallow: /nogooglebot/
-
 User-agent: *
-Allow: /
-
-Sitemap: https://alexist37.github.io/AlexisTroitzky_3_05072021/
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /wp-register.php
+Disallow: category
