@@ -38,8 +38,12 @@ header,
   position: relative;
 }
 
-.title {
+header h1 {
+  font-family: Shrikhand;
+  font-size: 3rem;
+  font-weight: 800;
   width: auto;
+  overflow-x: initial !important;
 }
 
 header,
