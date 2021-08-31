@@ -249,6 +249,19 @@ header,
 	justify-content: flex-start;
 }
 
+
+// icone DEBUT
+.fa-arrow-left {
+	font-size: 3rem;
+	color: black;
+
+	&:visited {
+		color: black;
+	}
+}
+
+// icone FIN
+
 .logo_fonctionnement {
 	margin-right: 2rem;
 	margin-left: 2rem;
@@ -259,6 +272,8 @@ header,
 	@include div-center;
 	position: absolute;
 }
+
+
 
 .icon_number {
 	background-color: $color-primary;
@@ -821,7 +836,7 @@ hr {
 
 
 .fa-heart {
-	
+
 	font-size: 3rem;
 	display: flex !important;
 	height: 3rem;
