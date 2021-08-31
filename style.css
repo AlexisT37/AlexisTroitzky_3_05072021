@@ -964,6 +964,7 @@ hr {
       -ms-flex-align: center;
           align-items: center;
   color: black !important;
+  text-underline-position: under;
 }
 
 .conteneur_coeur i:hover {
