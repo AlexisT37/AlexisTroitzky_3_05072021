@@ -17,6 +17,24 @@
 
 @mixin media_desktop {
     @include media-min($lg) {
+
+        .titre_accueil_restaurants {
+            display: flex;
+
+            & h2 {
+                align-self: center;
+            }
+        }
+
+
+
+        .restaurants {
+            display: flex;
+            flex-direction: initial;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
         .button_commander {
             max-width: 30rem !important;
         }
