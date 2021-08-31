@@ -78,19 +78,20 @@
 
 
 
-        .restaurants {
-            display: flex;
-            flex-direction: initial;
-            flex-wrap: wrap;
-            justify-content: space-around;
-        }
+        // .restaurants {
+        //     display: flex;
+        //     flex-direction: initial;
+        //     flex-wrap: wrap;
+        //     justify-content: space-around;
+        // }
 
         #restaurants {
             padding-bottom: 5rem;
             display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
+            flex-direction: initial;
+            justify-content: space-around;
             align-items: center;
+            flex-wrap: wrap;
 
             & .carte_resto {
                 margin-left: 1rem !important;
