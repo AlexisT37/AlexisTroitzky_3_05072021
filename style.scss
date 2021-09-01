@@ -259,6 +259,7 @@ header,
 	height: auto;
 
 }
+
 // images FIN
 
 
@@ -936,6 +937,25 @@ hr {
 
 /* INTERIEUR DU MENU FIN */
 
+
+// logo style DEBUT
+
+.element-logo i,
+.location i,
+.choix i {
+	font-size: 1.5rem;
+}
+
+
+.choix i,
+.composer i,
+.deguster i {
+	padding-left: 2rem;
+	padding-right: 2rem;
+	color: $color-footer;
+}
+
+// logo style FIN
 
 // media queries
 

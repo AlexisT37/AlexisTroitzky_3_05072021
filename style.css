@@ -1164,6 +1164,20 @@ hr {
 }
 
 /* INTERIEUR DU MENU FIN */
+.element-logo i,
+.location i,
+.choix i {
+  font-size: 1.5rem;
+}
+
+.choix i,
+.composer i,
+.deguster i {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: #353535;
+}
+
 @media only screen and (min-width: 1024px) {
   .titre_accueil_restaurants {
     display: -webkit-box;
