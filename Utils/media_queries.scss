@@ -41,6 +41,7 @@
 
         footer {
             flex-direction: row;
+            align-items: center;
         }
 
         .carte_resto,
@@ -76,15 +77,6 @@
             }
         }
 
-
-
-        // .restaurants {
-        //     display: flex;
-        //     flex-direction: initial;
-        //     flex-wrap: wrap;
-        //     justify-content: space-around;
-        // }
-
         #restaurants {
             padding-bottom: 5rem;
             display: flex;
@@ -105,9 +97,5 @@
             }
         }
 
-        // .titre_accueil_restaurants {
-        //     padding: 1rem;
-        //     margin: 1rem;
-        // }
     }
 }

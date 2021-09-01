@@ -137,6 +137,12 @@ header,
 
 // spinner FIN
 
+.title_resto {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
 
 .presentation>h1,
 .fonctionnement>h2 {
@@ -245,6 +251,7 @@ header,
 .fa-arrow-left {
 	font-size: 3rem;
 	color: black;
+	margin-right: 1rem;
 
 	&:visited {
 		color: black;

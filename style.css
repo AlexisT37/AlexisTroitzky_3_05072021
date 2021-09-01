@@ -177,6 +177,21 @@ header,
   }
 }
 
+.title_resto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .presentation > h1,
 .fonctionnement > h2 {
   font-size: 2rem;
@@ -319,6 +334,7 @@ header,
 .fa-arrow-left {
   font-size: 3rem;
   color: black;
+  margin-right: 1rem;
 }
 
 .fa-arrow-left:visited {
@@ -1210,6 +1226,9 @@ hr {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .carte_resto,
   .button,
